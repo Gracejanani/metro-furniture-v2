@@ -67,16 +67,16 @@ export const heroSlides = [
     image: "/hero.png",
     alt: "Metro Furniture — Premium furniture showroom, Dharmapuri",
   },
-  {
-    id: "slide-2",
-    image: "/sofa.png",
-    alt: "Metro Furniture — Stylish sofas and home furniture",
-  },
-  {
-    id: "slide-3",
-    image: "/bathroom-fitting.png",
-    alt: "Alaska Corner — Signature Collection",
-  }
+  // {
+  //   id: "slide-2",
+  //   image: "/sofa.png",
+  //   alt: "Metro Furniture — Stylish sofas and home furniture",
+  // },
+  // {
+  //   id: "slide-3",
+  //   image: "/bathroom-fitting.png",
+  //   alt: "Alaska Corner — Signature Collection",
+  // }
  
 ];
 
