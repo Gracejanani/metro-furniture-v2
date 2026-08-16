@@ -7,9 +7,13 @@ export default function PageBanner({
   compact = false,
 }) {
   return (
-    <section className="border-b border-border/70 bg-muted/30">
+    <section className="relative overflow-hidden border-b border-border/70 bg-gradient-to-b from-surface via-muted/35 to-background">
       <div
-        className={`container mx-auto px-4 ${
+        className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_80%_55%_at_50%_-30%,rgba(200,169,106,0.12),transparent)]"
+        aria-hidden="true"
+      />
+      <div
+        className={`container relative mx-auto px-4 ${
           compact ? "py-8 md:py-10" : "py-10 md:py-14"
         }`}
       >

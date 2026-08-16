@@ -14,9 +14,9 @@ export default function Footer() {
             <Image
               src={business.logo}
               alt={business.name}
-              width={160}
-              height={56}
-              className="h-14 w-auto rounded-2xl bg-white object-contain p-2"
+              width={180}
+              height={64}
+              className="h-12 w-auto object-contain"
             />
             <h2 className="font-heading text-xl font-bold">{business.name}</h2>
             <p className="font-tamil text-sm text-white/70">{business.nameTamil}</p>
@@ -33,7 +33,7 @@ export default function Footer() {
           </div>
 
           <div>
-            <h3 className="mb-4 text-sm font-semibold uppercase tracking-wider text-accent">
+            <h3 className="mb-4 text-sm font-semibold text-accent">
               Quick Links
             </h3>
             <ul className="space-y-2">
@@ -51,7 +51,7 @@ export default function Footer() {
           </div>
 
           <div>
-            <h3 className="mb-4 text-sm font-semibold uppercase tracking-wider text-accent">
+            <h3 className="mb-4 text-sm font-semibold text-accent">
               Contact
             </h3>
             <ul className="space-y-3">
@@ -80,7 +80,7 @@ export default function Footer() {
           <div>
             {branches.map((branch) => (
               <div key={branch.id}>
-                <h3 className="mb-2 text-sm font-semibold uppercase tracking-wider text-accent">
+                <h3 className="mb-2 text-sm font-semibold text-accent">
                   Showroom
                 </h3>
                 <address className="not-italic text-sm leading-relaxed text-white/75">
@@ -96,7 +96,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-10 border-t border-white/10 pt-8">
-          <p className="mb-4 text-center text-xs font-semibold uppercase tracking-[0.2em] text-accent">
+          <p className="mb-4 text-center text-xs text-accent/80">
             Premium Materials
           </p>
           <BrandStrip brands={brands} dark />

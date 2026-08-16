@@ -28,7 +28,7 @@ export default function SearchBar({
       <label htmlFor="product-search" className="sr-only">
         Search furniture
       </label>
-      <div className="group flex items-center overflow-hidden rounded-2xl border border-border/80 bg-white shadow-sm transition duration-200 focus-within:border-primary/40 focus-within:shadow-md focus-within:ring-4 focus-within:ring-primary/10">
+      <div className="group flex items-center overflow-hidden rounded-2xl border border-border/80 bg-surface shadow-sm transition duration-200 focus-within:border-accent/40 focus-within:shadow-md focus-within:ring-4 focus-within:ring-accent/10">
         <span className="pl-4 text-body/50" aria-hidden="true">
           <SearchIcon />
         </span>
@@ -42,7 +42,7 @@ export default function SearchBar({
         />
         <button
           type="submit"
-          className="m-1.5 rounded-xl bg-primary px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-primary-dark active:scale-[0.98]"
+          className="m-1.5 rounded-xl bg-accent px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-accent-dark active:scale-[0.98]"
         >
           Search
         </button>

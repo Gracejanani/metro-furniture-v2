@@ -78,9 +78,7 @@ export default function ProductCard({ product }) {
 
         <div className="flex flex-1 flex-col gap-3 p-5">
           <div className="flex items-center justify-between gap-2">
-            <p className="text-[11px] font-semibold uppercase tracking-[0.16em] text-accent">
-              {product.category}
-            </p>
+            <p className="text-xs text-accent">{product.category}</p>
             <span className="text-xs text-body">{product.material}</span>
           </div>
 

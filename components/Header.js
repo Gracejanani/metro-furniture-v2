@@ -14,10 +14,10 @@ export default function Header() {
   const [scrolled, setScrolled] = useState(false);
 
   const getNavLinkClassName = (active) =>
-    `relative rounded-xl px-3.5 py-2 text-sm font-medium transition duration-300 ${
+    `relative rounded-lg px-3 py-2 text-sm font-medium transition duration-200 ${
       active
-        ? "text-accent after:absolute after:bottom-0 after:left-3 after:right-3 after:h-0.5 after:rounded-full after:bg-accent"
-        : "text-body hover:text-foreground"
+        ? "text-accent"
+        : "text-white/75 hover:text-white"
     }`;
 
   useEffect(() => {
@@ -38,44 +38,26 @@ export default function Header() {
 
   return (
     <header
-      className={`sticky top-0 z-40 transition-all duration-500 ${
+      className={`sticky top-0 z-40 transition-all duration-300 ${
         scrolled ? "glass-nav shadow-nav" : "glass-nav-soft"
       }`}
     >
       <div
         className={`container mx-auto flex items-center justify-between gap-3 px-4 transition-all duration-300 ${
-          scrolled ? "py-2" : "py-3 md:py-3.5"
+          scrolled ? "py-2" : "py-3"
         }`}
       >
-        <Link
-          href="/"
-          className="group flex min-w-0 shrink items-center gap-2.5 sm:gap-3"
-        >
-          <span
-            className={`relative flex shrink-0 items-center justify-center rounded-2xl glass-card p-1 transition-all duration-300 ${
-              scrolled ? "h-10 w-10" : "h-11 w-11 sm:h-12 sm:w-12"
-            }`}
-          >
+        <Link href="/" className="group flex min-w-0 max-w-[min(100%,280px)] shrink items-center gap-2.5 sm:max-w-none sm:gap-3">
+          <span className="relative flex h-9 shrink-0 items-center sm:h-10 md:h-11">
             <Image
               src={business.navLogo}
-              alt=""
-              width={40}
-              height={40}
-              className="h-full w-full object-contain"
+              alt={business.name}
+              width={398}
+              height={136}
+              sizes="(max-width: 640px) 110px, 130px"
+              className="h-full w-auto max-h-9 object-contain object-left sm:max-h-10 md:max-h-11"
               priority
             />
-          </span>
-          <span className="min-w-0 leading-tight">
-            <span
-              className={`block font-heading font-bold tracking-tight text-foreground transition-all duration-300 group-hover:text-accent ${
-                scrolled ? "text-base sm:text-lg" : "text-lg sm:text-xl"
-              }`}
-            >
-              {business.name}
-            </span>
-            <span className="hidden text-[10px] font-medium uppercase tracking-[0.2em] text-accent/80 sm:block">
-              Dharmapuri
-            </span>
           </span>
         </Link>
 
@@ -97,7 +79,7 @@ export default function Header() {
           <CallButton label="Call" className="hidden sm:inline-flex" />
           <button
             type="button"
-            className="inline-flex h-11 w-11 items-center justify-center rounded-2xl glass-card text-foreground transition hover:border-accent/30 hover:text-accent xl:hidden"
+            className="inline-flex h-10 w-10 items-center justify-center rounded-xl border border-white/15 bg-white/10 text-white transition hover:border-accent/50 hover:bg-white/15 hover:text-accent xl:hidden"
             aria-expanded={open}
             aria-controls="mobile-menu"
             aria-label={open ? "Close menu" : "Open menu"}
@@ -113,7 +95,7 @@ export default function Header() {
           id="mobile-menu"
           initial={{ opacity: 0, y: -8 }}
           animate={{ opacity: 1, y: 0 }}
-          className="border-t border-glass-border glass-nav xl:hidden"
+          className="border-t border-white/10 glass-nav xl:hidden"
         >
           <nav className="container mx-auto flex flex-col gap-1 px-4 py-4" aria-label="Mobile navigation">
             {navLinks.map((link) => {
@@ -125,8 +107,8 @@ export default function Header() {
                 <Link
                   key={link.href}
                   href={link.href}
-                  className={`rounded-2xl px-4 py-3 text-base font-medium transition ${
-                    active ? "bg-accent/12 text-accent" : "text-foreground hover:bg-muted/80"
+                  className={`rounded-xl px-4 py-3 text-base font-medium transition ${
+                    active ? "bg-accent/15 text-accent" : "text-white/85 hover:bg-white/10 hover:text-white"
                   }`}
                 >
                   {link.label}

@@ -33,7 +33,7 @@ export async function generateMetadata({ params }) {
     title: product.name,
     description: product.description,
     path: `/product/${product.slug}`,
-    keywords: [product.category, product.material, ...(product.tags || [])],
+    keywords: [product.category, product.material, product.model, ...(product.tags || [])],
   });
 }
 
@@ -58,14 +58,15 @@ export default async function ProductDetailsPage({ params }) {
 
   return (
     <>
-      <div className="border-b border-border/60 bg-white/50">
-        <div className="container mx-auto px-4 py-4">
+      <div className="relative overflow-hidden border-b border-border/60 bg-gradient-to-b from-white/80 to-background/50">
+        <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_80%_50%_at_50%_-20%,rgba(201,162,77,0.12),transparent)]" />
+        <div className="container relative mx-auto px-4 py-4">
           <Breadcrumb items={crumbs} />
         </div>
       </div>
 
       <section className="container mx-auto px-4 py-8 md:py-12 lg:py-16">
-        <div className="grid gap-10 lg:grid-cols-2 lg:gap-14 xl:gap-16">
+        <div className="grid gap-10 lg:grid-cols-2 lg:gap-14 xl:gap-20">
           <Suspense
             fallback={
               <div className="space-y-4" aria-hidden="true">
@@ -89,7 +90,7 @@ export default async function ProductDetailsPage({ params }) {
       </section>
 
       {related.length ? (
-        <section className="border-t border-border/60 bg-gradient-to-b from-muted/40 to-background py-14 md:py-20">
+        <section className="border-t border-border/60 bg-gradient-to-b from-muted/40 via-background to-background py-14 md:py-20">
           <div className="container mx-auto px-4">
             <div className="mb-2 flex flex-wrap items-end justify-between gap-4">
               <SectionHeading

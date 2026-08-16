@@ -173,7 +173,7 @@ export default function CustomDesignForm() {
 
       <button
         type="submit"
-        className="w-full rounded-xl bg-primary px-5 py-3 text-sm font-semibold text-white transition hover:bg-primary-dark"
+        className="w-full rounded-xl bg-accent px-5 py-3 text-sm font-semibold text-white transition hover:bg-accent-dark"
       >
         Request Custom Quote
       </button>

@@ -6,7 +6,7 @@ import Autoplay from "embla-carousel-autoplay";
 import { useCallback, useEffect, useState } from "react";
 
 const HERO_WIDTH = 1717;
-const HERO_HEIGHT = 916;
+const HERO_HEIGHT = 550;
 
 export default function HeroSlider({ slides }) {
   const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true }, [

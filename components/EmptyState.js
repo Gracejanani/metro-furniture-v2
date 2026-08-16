@@ -7,8 +7,8 @@ export default function EmptyState({
   actionLabel = "Browse Shop",
 }) {
   return (
-    <div className="rounded-3xl border border-dashed border-border bg-white/70 px-6 py-20 text-center shadow-sm">
-      <div className="mx-auto mb-5 flex h-14 w-14 items-center justify-center rounded-2xl bg-muted text-primary">
+    <div className="rounded-3xl border border-dashed border-border bg-surface/80 px-6 py-20 text-center shadow-sm">
+      <div className="mx-auto mb-5 flex h-14 w-14 items-center justify-center rounded-2xl bg-accent/10 text-accent">
         <EmptyIcon />
       </div>
       <h3 className="font-heading text-xl font-semibold text-foreground">
@@ -19,7 +19,7 @@ export default function EmptyState({
       </p>
       <Link
         href={href}
-        className="mt-7 inline-flex rounded-2xl bg-primary px-6 py-3 text-sm font-semibold text-white shadow-sm transition hover:bg-primary-dark hover:shadow-md focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary"
+        className="mt-7 inline-flex rounded-2xl bg-accent px-6 py-3 text-sm font-semibold text-white shadow-sm transition hover:bg-accent-dark hover:shadow-md focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
       >
         {actionLabel}
       </Link>

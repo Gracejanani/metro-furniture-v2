@@ -1,32 +1,68 @@
 "use client";
 
-import Link from "next/link";
 import { useState } from "react";
+import { motion } from "framer-motion";
+import { MessageCircle, ShoppingBag } from "lucide-react";
 import CallButton from "@/components/CallButton";
+import RoomPreview from "@/components/RoomPreview";
 import PriceTag, {
   MaterialTag,
+  ModelTag,
   StockBadge,
   WarrantyBadge,
 } from "@/components/PriceTag";
 import WhatsAppButton from "@/components/WhatsAppButton";
-import { productEnquiryMessage } from "@/lib/whatsapp";
+import { buildWhatsAppUrl, productEnquiryMessage, productOrderMessage } from "@/lib/whatsapp";
 
 const TABS = [
   { id: "details", label: "Details" },
+  { id: "specs", label: "Specifications" },
   { id: "features", label: "Features" },
   { id: "care", label: "Care & Delivery" },
 ];
 
 export default function ProductBuyBox({ product }) {
   const [tab, setTab] = useState("details");
+  const [orderStep, setOrderStep] = useState(null);
+  const [orderData, setOrderData] = useState({});
   const enquiry = productEnquiryMessage(product);
 
+  const startQuickOrder = () => {
+    setOrderStep("mobile");
+    setOrderData({});
+  };
+
+  const submitOrderField = (value) => {
+    if (orderStep === "mobile") {
+      const digits = value.replace(/\D/g, "");
+      if (digits.length < 10) return;
+      setOrderData((d) => ({ ...d, mobile: digits.slice(-10) }));
+      setOrderStep("address");
+      return;
+    }
+    if (orderStep === "address" && value.trim().length >= 10) {
+      const url = buildWhatsAppUrl(
+        productOrderMessage(product, {
+          mobile: orderData.mobile,
+          address: value.trim(),
+        })
+      );
+      window.open(url, "_blank", "noopener,noreferrer");
+      setOrderStep(null);
+      setOrderData({});
+    }
+  };
+
   return (
-    <div className="flex flex-col">
-      <div className="flex flex-wrap items-center gap-2">
-        <p className="text-[11px] font-semibold uppercase tracking-[0.18em] text-accent">
-          {product.category}
-        </p>
+    <motion.div
+      initial={{ opacity: 0, y: 24 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.5, ease: [0.22, 1, 0.36, 1] }}
+      className="flex flex-col"
+    >
+      <div className="flex flex-wrap items-center gap-2 text-sm">
+        <span className="text-body">{product.category}</span>
+        <ModelTag model={product.model} />
         <MaterialTag material={product.material} />
         {product.warranty ? <WarrantyBadge /> : null}
         <StockBadge onRequest={product.onRequest} />
@@ -36,41 +72,95 @@ export default function ProductBuyBox({ product }) {
         {product.name}
       </h1>
 
+      {product.tagline ? (
+        <p className="mt-2 text-base italic leading-relaxed text-body/80">
+          {product.tagline}
+        </p>
+      ) : null}
+
       {product.color ? (
         <p className="mt-2 text-sm text-body">
           Colour: <span className="font-medium text-foreground">{product.color}</span>
         </p>
       ) : null}
 
-      <div className="mt-6 border-y border-border/70 py-5">
+      <div className="mt-6 rounded-2xl border border-border/60 bg-muted/20 p-5">
         <PriceTag product={product} size="lg" />
       </div>
 
-      <div className="mt-6 rounded-2xl border border-accent/20 bg-accent/5 p-4">
-        <p className="text-[11px] font-semibold uppercase tracking-[0.16em] text-accent">
-          Need help choosing?
-        </p>
-        <p className="mt-2 text-sm leading-relaxed text-body">
-          We can guide you on size, finish, fabric and delivery for this furniture piece.
-        </p>
+      {orderStep ? (
+        <div className="mt-4 rounded-2xl border border-border/60 bg-muted/30 p-4">
+          <p className="text-sm font-medium text-foreground">Quick WhatsApp order</p>
+          <p className="mt-2 text-sm text-body">
+            {orderStep === "mobile"
+              ? "Enter your 10-digit mobile number:"
+              : "Enter your delivery address:"}
+          </p>
+          <form
+            className="mt-3 flex gap-2"
+            onSubmit={(e) => {
+              e.preventDefault();
+              submitOrderField(e.target.field.value);
+              e.target.reset();
+            }}
+          >
+            <input
+              name="field"
+              type={orderStep === "mobile" ? "tel" : "text"}
+              required
+              placeholder={orderStep === "mobile" ? "9876543210" : "Area, landmark, pincode"}
+              className="min-w-0 flex-1 rounded-xl border border-border bg-surface px-3 py-2.5 text-sm outline-none focus:border-accent focus:ring-2 focus:ring-accent/20"
+            />
+            <button
+              type="submit"
+              className="shrink-0 rounded-xl bg-accent px-4 py-2.5 text-sm font-semibold text-white transition hover:bg-accent-dark"
+            >
+              Next
+            </button>
+          </form>
+          <button
+            type="button"
+            onClick={() => { setOrderStep(null); setOrderData({}); }}
+            className="mt-2 text-xs text-body underline-offset-2 hover:underline"
+          >
+            Cancel
+          </button>
+        </div>
+      ) : (
+        <div className="mt-6 flex flex-col gap-3">
+          <button
+            type="button"
+            onClick={startQuickOrder}
+            className="flex w-full items-center justify-center gap-2 rounded-xl bg-accent px-5 py-3.5 text-sm font-medium text-white shadow-sm transition hover:bg-accent-dark"
+          >
+            <ShoppingBag className="h-4 w-4" />
+            Quick Order via WhatsApp
+          </button>
+          <div className="flex flex-col gap-3 sm:flex-row sm:flex-wrap">
+            <WhatsAppButton
+              message={enquiry}
+              label={product.onRequest ? "Get Best Price" : "Add to Quote"}
+              className="flex-1 justify-center rounded-2xl !py-3.5 shadow-md"
+            />
+            <CallButton
+              label="Call Now"
+              className="flex-1 justify-center rounded-2xl !py-3.5"
+            />
+          </div>
+        </div>
+      )}
+
+      <div className="mt-4">
+        <RoomPreview productImage={product.image} productName={product.name} />
       </div>
 
-      <div className="mt-6 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
-        <WhatsAppButton
-          message={enquiry}
-          label={product.onRequest ? "Get Best Price" : "Add to Quote"}
-          className="flex-1 justify-center rounded-2xl !py-3.5 shadow-md"
-        />
-        <CallButton
-          label="Call Now"
-          className="flex-1 justify-center rounded-2xl !py-3.5"
-        />
-        <Link
-          href="/contact"
-          className="inline-flex flex-1 items-center justify-center rounded-2xl border border-border bg-surface px-5 py-3.5 text-sm font-semibold shadow-sm transition hover:border-accent hover:text-accent"
-        >
-          Custom Size?
-        </Link>
+      <div className="mt-4 rounded-xl border border-border/60 bg-muted/20 p-4">
+        <div className="flex items-start gap-3">
+          <MessageCircle className="mt-0.5 h-4 w-4 shrink-0 text-body" />
+          <p className="text-sm text-body">
+            Use the chat button (bottom-left) to ask about this product or place an order.
+          </p>
+        </div>
       </div>
 
       <div className="mt-10">
@@ -81,6 +171,10 @@ export default function ProductBuyBox({ product }) {
         >
           {TABS.map((item) => {
             const selected = tab === item.id;
+            const hasSpecs = item.id === "specs" && product.specs?.length;
+            const hasFeatures = item.id === "features" && product.features?.length;
+            if (item.id === "specs" && !product.specs?.length) return null;
+            if (item.id === "features" && !product.features?.length) return null;
             return (
               <button
                 key={item.id}
@@ -110,7 +204,36 @@ export default function ProductBuyBox({ product }) {
           className="animate-fade-in py-5"
         >
           {tab === "details" ? (
-            <p className="text-[15px] leading-relaxed text-body">{product.description}</p>
+            <div className="space-y-4">
+              <p className="text-[15px] leading-relaxed text-body">{product.description}</p>
+              {product.configuration ? (
+                <div className="rounded-xl bg-muted/40 p-4">
+                  <p className="text-[11px] font-semibold uppercase tracking-wider text-accent">
+                    Configuration
+                  </p>
+                  <p className="mt-1 text-sm text-foreground">{product.configuration}</p>
+                </div>
+              ) : null}
+              {product.upholstery ? (
+                <div className="rounded-xl bg-muted/40 p-4">
+                  <p className="text-[11px] font-semibold uppercase tracking-wider text-accent">
+                    Upholstery
+                  </p>
+                  <p className="mt-1 text-sm text-foreground">{product.upholstery}</p>
+                </div>
+              ) : null}
+            </div>
+          ) : null}
+
+          {tab === "specs" && product.specs?.length ? (
+            <dl className="divide-y divide-border/60 rounded-2xl border border-border/60 overflow-hidden">
+              {product.specs.map((spec) => (
+                <div key={spec.label} className="flex gap-4 bg-surface px-4 py-3 even:bg-muted/20">
+                  <dt className="w-2/5 shrink-0 text-sm font-medium text-body">{spec.label}</dt>
+                  <dd className="text-sm font-semibold text-foreground">{spec.value}</dd>
+                </div>
+              ))}
+            </dl>
           ) : null}
 
           {tab === "features" ? (
@@ -128,15 +251,15 @@ export default function ProductBuyBox({ product }) {
 
           {tab === "care" ? (
             <ul className="space-y-3 text-sm leading-relaxed text-body">
-              <li>Wipe with a soft dry cloth; avoid harsh chemicals on wood finishes.</li>
+              <li>Wipe with a soft dry cloth; avoid harsh chemicals on finishes.</li>
               <li>Showroom pickup available at our Salem Main Road location.</li>
-              <li>Delivery & installation options — ask on WhatsApp when you enquire.</li>
-              <li>Final price confirmed after size, finish and fabric selection.</li>
+              <li>Delivery & installation — confirm on WhatsApp when you order.</li>
+              <li>No online payment — order via WhatsApp and pay as confirmed by our team.</li>
             </ul>
           ) : null}
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 }
 

@@ -1,17 +1,56 @@
 "use client";
 
-import Image from "next/image";
-import { useEffect, useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { business } from "@/data/business";
+import {
+  dispatchLoaderComplete,
+  isMobileViewport,
+  MAX_LOADER_MS,
+  MOBILE_LOADER_MS,
+} from "@/lib/loader";
+
+const MOBILE_LOADER = "/mobile-loader.mp4";
+const WEB_LOADER = "/web-loader.mp4";
 
 export default function InitialLoader() {
   const [show, setShow] = useState(true);
+  const [videoSrc, setVideoSrc] = useState(null);
+  const [isMobile, setIsMobile] = useState(false);
+  const dismissedRef = useRef(false);
+  const videoRef = useRef(null);
+
+  const dismiss = useCallback(() => {
+    if (dismissedRef.current) return;
+    dismissedRef.current = true;
+    setShow(false);
+    dispatchLoaderComplete();
+  }, []);
 
   useEffect(() => {
-    const timer = window.setTimeout(() => setShow(false), 1800);
-    return () => window.clearTimeout(timer);
-  }, []);
+    const mobile = isMobileViewport();
+    setIsMobile(mobile);
+    setVideoSrc(mobile ? MOBILE_LOADER : WEB_LOADER);
+
+    const timeoutMs = mobile ? MOBILE_LOADER_MS : MAX_LOADER_MS;
+    const fallback = window.setTimeout(dismiss, timeoutMs);
+    return () => window.clearTimeout(fallback);
+  }, [dismiss]);
+
+  useEffect(() => {
+    const video = videoRef.current;
+    if (!video || !videoSrc) return;
+
+    const playVideo = async () => {
+      try {
+        video.currentTime = 0;
+        await video.play();
+      } catch {
+        dismiss();
+      }
+    };
+
+    playVideo();
+  }, [videoSrc, dismiss]);
 
   return (
     <AnimatePresence>
@@ -19,50 +58,27 @@ export default function InitialLoader() {
         <motion.div
           initial={{ opacity: 1 }}
           exit={{ opacity: 0 }}
-          transition={{ duration: 0.5 }}
-          className="fixed inset-0 z-[100] flex min-h-screen items-center justify-center bg-background px-4 py-20"
+          transition={{ duration: 0.45, ease: "easeOut" }}
+          className="fixed inset-0 z-[100] flex min-h-[100dvh] min-w-full items-center justify-center bg-black"
           role="status"
           aria-live="polite"
           aria-busy="true"
+          aria-label="Loading Metro Furniture"
         >
-          <div className="w-full max-w-md text-center">
-            <motion.div
-              initial={{ scale: 0.9, opacity: 0 }}
-              animate={{ scale: 1, opacity: 1 }}
-              transition={{ duration: 0.5 }}
-              className="relative mx-auto mb-6 flex h-28 w-28 items-center justify-center overflow-hidden rounded-3xl glass-card p-3"
-            >
-              <Image
-                src={business.logo}
-                alt={business.name}
-                width={96}
-                height={96}
-                sizes="112px"
-                className="object-contain"
-                priority
-              />
-            </motion.div>
-
-            <motion.div
-              initial={{ y: 12, opacity: 0 }}
-              animate={{ y: 0, opacity: 1 }}
-              transition={{ delay: 0.2 }}
-            >
-              <h2 className="font-heading text-2xl font-bold text-foreground">
-                {business.name}
-              </h2>
-              <p className="mt-1 text-sm text-body">{business.tagline}</p>
-            </motion.div>
-
-            <div className="mx-auto mt-6 h-1 w-44 overflow-hidden rounded-full bg-muted">
-              <motion.div
-                initial={{ width: 0 }}
-                animate={{ width: "100%" }}
-                transition={{ duration: 1.6, ease: "easeOut" }}
-                className="h-full rounded-full accent-gradient"
-              />
-            </div>
-          </div>
+          {videoSrc ? (
+            <video
+              ref={videoRef}
+              key={videoSrc}
+              src={videoSrc}
+              className="h-full w-full object-cover"
+              autoPlay
+              muted
+              playsInline
+              preload="auto"
+              onEnded={isMobile ? undefined : dismiss}
+              onError={dismiss}
+            />
+          ) : null}
         </motion.div>
       ) : null}
     </AnimatePresence>

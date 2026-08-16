@@ -1,21 +1,25 @@
 import { categories } from "@/data/categories";
-import { isJustDialImage, resolveCategoryImage } from "@/data/images";
-import { getProductBySlug, getShowroomImages, products } from "@/data/products";
-
-const jdShowroom = getShowroomImages();
+import { galleryUrls } from "@/data/gallery";
+import { resolveCategoryImage } from "@/data/images";
+import { getProductBySlug, products } from "@/data/products";
 
 function uniqueUrls(urls) {
   return [...new Set(urls.filter(Boolean))];
 }
 
 export const images = {
-  hero: ["/hero.png", "/hero-1.png"],
-  showroom: jdShowroom.length
-    ? uniqueUrls([
-        ...jdShowroom,
-        ...products.filter((p) => isJustDialImage(p.image)).map((p) => p.image),
-      ]).slice(0, 12)
-    : products.slice(0, 8).map((p) => p.image),
+  hero: [
+    "/Metro_Product_Images/MTC-101_Alaska_Corner.jpg",
+    "/Metro_Product_Images/MTC-114_Grand_Bay_Corner.jpg",
+    "/Lights_Products/LL-D5463.jpg",
+    "/Gallery/IMG-20260815-WA0030.jpg",
+  ],
+  showroom: uniqueUrls([
+    ...galleryUrls,
+    ...products
+      .filter((p) => p.image?.startsWith("/Metro_Product_Images"))
+      .map((p) => p.image),
+  ]),
   category: Object.fromEntries(
     categories.map((c) => [
       c.id,
@@ -29,32 +33,46 @@ export const images = {
 
 export const collections = [
   {
-    id: "living-room",
-    name: "Living Room",
-    description: "Sofas, recliners & coffee tables for elegant entertaining",
-    image: getProductBySlug("sofa-set")?.image ?? images.category.Sofas,
+    id: "corner-sofas",
+    name: "Corner Collection",
+    description: "L-shape & U-shape corners with recliners, storage & consoles",
+    image: getProductBySlug("alaska-corner")?.image ?? images.category["Corner Sofas"],
+    href: "/shop/corner-sofas",
+  },
+  {
+    id: "sofa-sets",
+    name: "Sofa Sets",
+    description: "3+1+1 recliner sets in premium fabrics & finishes",
+    image: getProductBySlug("cairo-sofa")?.image ?? images.category.Sofas,
     href: "/shop/sofas",
   },
   {
-    id: "bedroom",
-    name: "Bedroom Suite",
-    description: "King & queen beds with premium mattresses",
-    image: images.category.Beds,
-    href: "/shop/beds",
-  },
-  {
     id: "dining",
-    name: "Dining Experience",
-    description: "Nilkamal & wooden dining sets for family gatherings",
+    name: "Dining",
+    description: "Wooden & marble-top dining sets for family gatherings",
     image: images.category.Dining,
     href: "/shop/dining",
   },
   {
-    id: "office",
-    name: "Work From Home",
-    description: "Godrej Interio desks, chairs & storage solutions",
-    image: images.category["Office Furniture"],
-    href: "/shop/office-furniture",
+    id: "restroom",
+    name: "Bathroom Fittings",
+    description: "Basins, taps, vanity units & shower fittings",
+    image: images.category["Bathroom Fittings"],
+    href: "/shop/bathroom-fittings",
+  },
+  {
+    id: "chandeliers",
+    name: "Designer Chandeliers",
+    description: "Crystal & LED cluster chandeliers for grand interiors",
+    image: getProductBySlug("bubble-drop-chandelier-16-strand")?.image ?? images.category.Chandeliers,
+    href: "/shop/chandeliers",
+  },
+  {
+    id: "chairs",
+    name: "Chairs",
+    description: "Office, lounge & dining chairs",
+    image: images.category.Chairs,
+    href: "/shop/chairs",
   },
 ];
 
@@ -69,7 +87,7 @@ export const faqs = [
     id: "f2",
     question: "Do you offer home delivery?",
     answer:
-      "Yes. We arrange delivery across Dharmapuri and nearby towns. Delivery charges depend on location and item size — ask our team for a quote.",
+      "Yes. We arrange delivery across Dharmapuri and nearby towns. Delivery charges depend on location and item size — ask our team for a quote when you order on WhatsApp.",
   },
   {
     id: "f3",
@@ -84,14 +102,14 @@ export const faqs = [
   },
   {
     id: "f5",
-    question: "Do you sell mattresses separately?",
+    question: "Do you sell bathroom fittings and dining sets?",
     answer:
-      "Yes. We stock orthopaedic, memory foam and spring mattresses in standard and custom sizes to pair with our bed frames.",
+      "Yes — wash basins, taps, vanity units, dining sets, chairs and mattresses are available. Browse our shop or ask the chat assistant.",
   },
   {
     id: "f6",
-    question: "How do I get the best price?",
+    question: "How do I place an order?",
     answer:
-      "Visit the showroom or WhatsApp us with the product name. Prices vary by size, material and finish — we provide transparent quotes with no hidden charges.",
+      "Use the chat assistant or product page to order via WhatsApp. Share your mobile number and address — no online payment needed. Our team confirms price and delivery.",
   },
 ];

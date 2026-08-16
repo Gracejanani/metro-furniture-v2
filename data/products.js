@@ -1,18 +1,18 @@
-﻿import justdialProducts from "@/data/justdial-products.json";
+﻿import catalogProducts from "@/data/catalog-products.json";
 
-/** Product catalogue sourced from JustDial Metro Furniture gallery. */
-export const products = justdialProducts;
+/** Product catalogue — Metro Furniture sofas & designer lighting. */
+export const products = catalogProducts;
 
 export const trustBadges = [
   {
     id: "quality",
     title: "Premium Quality",
-    description: "Curated furniture from trusted manufacturers and craftsmen",
+    description: "Curated sofas and designer lighting from trusted manufacturers",
   },
   {
     id: "range",
-    title: "Wide Selection",
-    description: "Sofas, beds, dining, wardrobes, mattresses and more under one roof",
+    title: "Signature Collection",
+    description: "15 sofa & corner models plus 19 designer light fixtures",
   },
   {
     id: "custom",
@@ -22,7 +22,7 @@ export const trustBadges = [
   {
     id: "local",
     title: "Trusted in Dharmapuri",
-    description: "Serving Salem Main Road and surrounding areas",
+    description: "Serving Salem Main Road and surrounding areas since years",
   },
 ];
 
@@ -40,7 +40,7 @@ export const testimonials = [
     name: "Priya M.",
     location: "Senthil Nagar",
     quote:
-      "Our sofa set fits perfectly in the living room. Fair pricing and professional service.",
+      "Our Alaska Corner fits perfectly in the living room. Fair pricing and professional service.",
     rating: 5,
   },
   {
@@ -48,7 +48,7 @@ export const testimonials = [
     name: "Suresh V.",
     location: "Lakkiampatti",
     quote:
-      "Great range of dining sets and office furniture. Staff was patient and never pushed us to buy.",
+      "Beautiful chandelier for our stairwell. Staff was patient and never pushed us to buy.",
     rating: 5,
   },
   {
@@ -56,7 +56,7 @@ export const testimonials = [
     name: "Divya K.",
     location: "Dharmapuri",
     quote:
-      "Purchased a Nilkamal bed and dining set. Delivery was on time and both pieces are excellent.",
+      "Purchased the Sagar Corner recliner set. Delivery was on time and the quality is excellent.",
     rating: 5,
   },
 ];
@@ -65,13 +65,19 @@ export const heroSlides = [
   {
     id: "slide-1",
     image: "/hero.png",
-    alt: "Metro Furniture showroom — Salem Main Road, Dharmapuri",
+    alt: "Metro Furniture — Premium furniture showroom, Dharmapuri",
   },
   {
     id: "slide-2",
-    image: "/hero-1.png",
-    alt: "Metro Furniture premium collection",
+    image: "/sofa.png",
+    alt: "Metro Furniture — Stylish sofas and home furniture",
   },
+  {
+    id: "slide-3",
+    image: "/bathroom-fitting.png",
+    alt: "Alaska Corner — Signature Collection",
+  }
+ 
 ];
 
 export function getProductBySlug(slug) {
@@ -94,21 +100,13 @@ export function getProductsByCategory(category) {
 }
 
 export function getOfferProducts() {
-  return products.filter((product) => product.onRequest);
+  return products.filter((product) => product.offer && !product.onRequest);
 }
 
 export function getBestsellers() {
-  const slugs = [
-    "sofa-set",
-    "nilkamal-hermiston-6-seater-dining-set-brown",
-    "nilkamal-czar-2-queen-bed-beech-walnut",
-    "supreme-furniture-ornate-black-red",
-    "godrej-interio-office-furniture-reception-tables-first-impression",
-    "wall-mounted-tv-unit-7ft",
-  ];
-  const picked = slugs.map((slug) => getProductBySlug(slug)).filter(Boolean);
-  if (picked.length >= 4) return picked;
-  return getFeaturedProducts().slice(0, 6);
+  const featured = getFeaturedProducts();
+  if (featured.length >= 6) return featured.slice(0, 6);
+  return products.slice(0, 6);
 }
 
 export function searchProducts(query) {
@@ -117,10 +115,13 @@ export function searchProducts(query) {
   return products.filter((product) => {
     const haystack = [
       product.name,
+      product.model,
       product.category,
       product.material,
       product.color,
       product.description,
+      product.tagline,
+      product.configuration,
       ...(product.tags || []),
       ...(product.features || []),
     ]
@@ -132,8 +133,18 @@ export function searchProducts(query) {
 }
 
 export function getShowroomImages() {
-  const urls = products
-    .filter((p) => p.image?.includes("9999p4342"))
-    .map((p) => p.image);
-  return [...new Set(urls)];
+  return products
+    .filter((p) => p.image?.startsWith("/Metro_Product_Images"))
+    .map((p) => p.image)
+    .slice(0, 12);
+}
+
+export function getUpcomingProducts() {
+  return products.filter((p) => p.upcoming);
+}
+
+export function getBestFurniture() {
+  const featured = products.filter((p) => p.featured && !p.upcoming);
+  if (featured.length >= 8) return featured.slice(0, 10);
+  return products.filter((p) => !p.upcoming).slice(0, 10);
 }

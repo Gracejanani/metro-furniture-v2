@@ -3,6 +3,8 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import FloatingContact from "@/components/FloatingContact";
 import InitialLoader from "@/components/InitialLoader";
+import AnimatedBackground from "@/components/AnimatedBackground";
+import ChatAssistant from "@/components/ChatAssistant";
 import { business, seoKeywords, siteUrl } from "@/data/business";
 import "./globals.css";
 
@@ -65,12 +67,14 @@ export default function RootLayout({ children }) {
       lang="en"
       className={`${playfair.variable} ${inter.variable} ${notoTamil.variable} h-full`}
     >
-      <body className="flex min-h-full flex-col bg-background font-sans text-foreground antialiased">
+      <body className="relative flex min-h-full flex-col bg-transparent font-sans text-foreground antialiased">
+        <AnimatedBackground />
         <InitialLoader />
         <Header />
         <main className="flex-1">{children}</main>
         <Footer />
         <FloatingContact />
+        <ChatAssistant />
       </body>
     </html>
   );

@@ -54,13 +54,10 @@ export const siteUrl = "https://metrodharmapuri.com";
 export const seoKeywords = [
   "Metro Furniture",
   "Metro Furniture Dharmapuri",
-  "Furniture Senthil Nagar",
+  "Corner Sofa Dharmapuri",
+  "Sofa Set Dharmapuri",
+  "Chandelier Dharmapuri",
+  "LED Wall Light Dharmapuri",
+  "Alaska Corner Sofa",
   "Salem Main Road Furniture",
-  "Dharmapuri Sofa Store",
-  "Dharmapuri Beds",
-  "Dining Table Dharmapuri",
-  "Wardrobe Dharmapuri",
-  "Recliner Sofa Dharmapuri",
-  "Mattress Store Dharmapuri",
-  "Office Furniture Dharmapuri",
 ];

@@ -1,8 +1,8 @@
 export default function PriceTag({ product, size = "md", showNote = true }) {
   const sizes = {
-    sm: { price: "text-lg", note: "text-[10px]", unit: "text-[11px]" },
-    md: { price: "text-2xl", note: "text-xs", unit: "text-sm" },
-    lg: { price: "text-3xl md:text-4xl", note: "text-sm", unit: "text-base" },
+    sm: { price: "text-lg", note: "text-[10px]", unit: "text-[11px]", mrp: "text-sm" },
+    md: { price: "text-2xl", note: "text-xs", unit: "text-sm", mrp: "text-base" },
+    lg: { price: "text-3xl md:text-4xl", note: "text-sm", unit: "text-base", mrp: "text-lg" },
   };
   const s = sizes[size];
 
@@ -31,9 +31,19 @@ export default function PriceTag({ product, size = "md", showNote = true }) {
           / {product.priceUnit === "set" ? "set" : "pc"}
         </span>
       </div>
+      {product.mrp ? (
+        <p className={`font-medium text-body/50 line-through ${s.mrp}`}>
+          MRP ₹{product.mrp.toLocaleString("en-IN")}
+        </p>
+      ) : null}
+      {product.offer ? (
+        <span className="inline-flex rounded-full bg-accent/15 px-2.5 py-0.5 text-[11px] font-bold uppercase tracking-wide text-accent">
+          {product.offer}
+        </span>
+      ) : null}
       {showNote ? (
         <p className={`text-body/55 ${s.note}`}>
-          *Starting price — may vary by size/finish
+          *Showroom special price — confirm on WhatsApp
         </p>
       ) : null}
     </div>
@@ -69,6 +79,15 @@ export function MaterialTag({ material }) {
   return (
     <span className="inline-flex items-center rounded-full bg-accent/10 px-2.5 py-1 text-[11px] font-semibold tracking-wide text-accent ring-1 ring-inset ring-accent/20">
       {material}
+    </span>
+  );
+}
+
+export function ModelTag({ model }) {
+  if (!model) return null;
+  return (
+    <span className="inline-flex items-center rounded-full bg-foreground/5 px-2.5 py-1 text-[11px] font-semibold tracking-wide text-body ring-1 ring-inset ring-border">
+      {model}
     </span>
   );
 }

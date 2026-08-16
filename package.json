@@ -8,6 +8,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
+    "build:catalog": "node scripts/build-catalog.mjs",
     "scrape:justdial": "node scripts/capture-wap.mjs && node scripts/extract-catalogue.mjs && node scripts/build-products.mjs && node scripts/fix-images.mjs"
   },
   "dependencies": {

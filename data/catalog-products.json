@@ -1,0 +1,2720 @@
+[
+  {
+    "id": "mtc-101",
+    "slug": "alaska-corner",
+    "model": "MTC-101",
+    "name": "Alaska Corner",
+    "category": "Corner Sofas",
+    "tagline": "Contemporary L-shape corner sofa with built-in storage consoles",
+    "price": 38999,
+    "mrp": 52990,
+    "priceUnit": "set",
+    "priceLabel": "₹38,999",
+    "material": "Engineered hardwood frame, tapered metal legs",
+    "color": "Teal",
+    "configuration": "6-Seater L-Shape Corner (3+2+1 modular)",
+    "upholstery": "Premium teal velvet-finish fabric, channel tufted backrests",
+    "image": "/Metro_Product_Images/MTC-101_Alaska_Corner.jpg",
+    "images": [
+      "/Metro_Product_Images/MTC-101_Alaska_Corner.jpg"
+    ],
+    "warranty": true,
+    "onRequest": false,
+    "featured": true,
+    "offer": "26% OFF",
+    "description": "Contemporary L-shape corner sofa with built-in storage consoles. 6-Seater L-Shape Corner (3+2+1 modular). Premium teal velvet-finish fabric, channel tufted backrests.",
+    "features": [
+      "6-Seater L-Shape Corner (3+2+1 modular)",
+      "Premium teal velvet-finish fabric, channel tufted backrests",
+      "Engineered hardwood frame, tapered metal legs",
+      "Fold-down side consoles with drawer storage",
+      "Built-in USB charging port",
+      "Available at Metro Furniture showroom, Dharmapuri"
+    ],
+    "specs": [
+      {
+        "label": "Configuration",
+        "value": "6-Seater L-Shape Corner (3+2+1 modular)"
+      },
+      {
+        "label": "Upholstery",
+        "value": "Premium teal velvet-finish fabric, channel tufted backrests"
+      },
+      {
+        "label": "Frame & Legs",
+        "value": "Engineered hardwood frame, tapered metal legs"
+      },
+      {
+        "label": "Colour",
+        "value": "Teal"
+      }
+    ],
+    "tags": [
+      "corner sofas",
+      "teal",
+      "sofa",
+      "furniture"
+    ],
+    "related": [
+      "mtc-102",
+      "mtc-103",
+      "mtc-108",
+      "mtc-111"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "mtc-102",
+    "slug": "dollar-corner",
+    "model": "MTC-102",
+    "name": "Dollar Corner",
+    "category": "Corner Sofas",
+    "tagline": "Classic Chesterfield-style tufted corner sofa",
+    "price": 33499,
+    "mrp": 47990,
+    "priceUnit": "set",
+    "priceLabel": "₹33,499",
+    "material": "Solid wood trim armrests, wooden block legs",
+    "color": "Caramel Brown",
+    "configuration": "6-Seater L-Shape Corner",
+    "upholstery": "Caramel brown suede-touch fabric, deep button tufting",
+    "image": "/Metro_Product_Images/MTC-102_Dollar_Corner.jpg",
+    "images": [
+      "/Metro_Product_Images/MTC-102_Dollar_Corner.jpg"
+    ],
+    "warranty": true,
+    "onRequest": false,
+    "featured": true,
+    "offer": "30% OFF",
+    "description": "Classic Chesterfield-style tufted corner sofa. 6-Seater L-Shape Corner. Caramel brown suede-touch fabric, deep button tufting.",
+    "features": [
+      "6-Seater L-Shape Corner",
+      "Caramel brown suede-touch fabric, deep button tufting",
+      "Solid wood trim armrests, wooden block legs",
+      "Adjustable pillow headrests",
+      "Box-cushion seating for extra depth",
+      "Available at Metro Furniture showroom, Dharmapuri"
+    ],
+    "specs": [
+      {
+        "label": "Configuration",
+        "value": "6-Seater L-Shape Corner"
+      },
+      {
+        "label": "Upholstery",
+        "value": "Caramel brown suede-touch fabric, deep button tufting"
+      },
+      {
+        "label": "Frame & Legs",
+        "value": "Solid wood trim armrests, wooden block legs"
+      },
+      {
+        "label": "Colour",
+        "value": "Caramel Brown"
+      }
+    ],
+    "tags": [
+      "corner sofas",
+      "caramel brown",
+      "sofa",
+      "furniture"
+    ],
+    "related": [
+      "mtc-101",
+      "mtc-103",
+      "mtc-108",
+      "mtc-111"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "mtc-103",
+    "slug": "sagar-corner",
+    "model": "MTC-103",
+    "name": "Sagar Corner",
+    "category": "Corner Sofas",
+    "tagline": "Reclining corner sofa in rich wine upholstery",
+    "price": 39999,
+    "mrp": 54990,
+    "priceUnit": "set",
+    "priceLabel": "₹39,999",
+    "material": "Reinforced steel recliner mechanism, engineered wood base",
+    "color": "Wine Red",
+    "configuration": "6-Seater L-Shape Corner with 2 manual recliners",
+    "upholstery": "Wine-red textured fabric, stitched panel backrests",
+    "image": "/Metro_Product_Images/MTC-103_Sagar_Corner.jpg",
+    "images": [
+      "/Metro_Product_Images/MTC-103_Sagar_Corner.jpg"
+    ],
+    "warranty": true,
+    "onRequest": false,
+    "featured": true,
+    "offer": "27% OFF",
+    "description": "Reclining corner sofa in rich wine upholstery. 6-Seater L-Shape Corner with 2 manual recliners. Wine-red textured fabric, stitched panel backrests.",
+    "features": [
+      "6-Seater L-Shape Corner with 2 manual recliners",
+      "Wine-red textured fabric, stitched panel backrests",
+      "Reinforced steel recliner mechanism, engineered wood base",
+      "Dual pull-out footrests",
+      "Deep-cushion tufted seating",
+      "Available at Metro Furniture showroom, Dharmapuri"
+    ],
+    "specs": [
+      {
+        "label": "Configuration",
+        "value": "6-Seater L-Shape Corner with 2 manual recliners"
+      },
+      {
+        "label": "Upholstery",
+        "value": "Wine-red textured fabric, stitched panel backrests"
+      },
+      {
+        "label": "Frame & Legs",
+        "value": "Reinforced steel recliner mechanism, engineered wood base"
+      },
+      {
+        "label": "Colour",
+        "value": "Wine Red"
+      }
+    ],
+    "tags": [
+      "corner sofas",
+      "wine red",
+      "sofa",
+      "furniture"
+    ],
+    "related": [
+      "mtc-101",
+      "mtc-102",
+      "mtc-108",
+      "mtc-111"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "mtc-104",
+    "slug": "cairo-sofa",
+    "model": "MTC-104",
+    "name": "Cairo Sofa",
+    "category": "Sofas",
+    "tagline": "Diamond-quilted 3+1+1 sofa set with polished wood arms",
+    "price": 31999,
+    "mrp": 44990,
+    "priceUnit": "set",
+    "priceLabel": "₹31,999",
+    "material": "Glossy walnut-finish wooden armrests, block legs",
+    "color": "Taupe Brown",
+    "configuration": "3-Seater + 2 Single Recliners (5-Seater set)",
+    "upholstery": "Taupe-brown fabric with diamond quilted backrests",
+    "image": "/Metro_Product_Images/MTC-104_Cairo_Sofa.jpg",
+    "images": [
+      "/Metro_Product_Images/MTC-104_Cairo_Sofa.jpg"
+    ],
+    "warranty": true,
+    "onRequest": false,
+    "featured": true,
+    "offer": "29% OFF",
+    "description": "Diamond-quilted 3+1+1 sofa set with polished wood arms. 3-Seater + 2 Single Recliners (5-Seater set). Taupe-brown fabric with diamond quilted backrests.",
+    "features": [
+      "3-Seater + 2 Single Recliners (5-Seater set)",
+      "Taupe-brown fabric with diamond quilted backrests",
+      "Glossy walnut-finish wooden armrests, block legs",
+      "Matching armchair pair",
+      "Quilted cushion detailing",
+      "Available at Metro Furniture showroom, Dharmapuri"
+    ],
+    "specs": [
+      {
+        "label": "Configuration",
+        "value": "3-Seater + 2 Single Recliners (5-Seater set)"
+      },
+      {
+        "label": "Upholstery",
+        "value": "Taupe-brown fabric with diamond quilted backrests"
+      },
+      {
+        "label": "Frame & Legs",
+        "value": "Glossy walnut-finish wooden armrests, block legs"
+      },
+      {
+        "label": "Colour",
+        "value": "Taupe Brown"
+      }
+    ],
+    "tags": [
+      "sofas",
+      "taupe brown",
+      "sofa",
+      "furniture"
+    ],
+    "related": [
+      "mtc-105",
+      "mtc-106",
+      "mtc-107",
+      "mtc-109"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "mtc-105",
+    "slug": "stuart-sofa",
+    "model": "MTC-105",
+    "name": "Stuart Sofa",
+    "category": "Sofas",
+    "tagline": "Soft-blush recliner sofa set for a warm, elegant living room",
+    "price": 29999,
+    "mrp": 41990,
+    "priceUnit": "set",
+    "priceLabel": "₹29,999",
+    "material": "Wooden armrest trim, manual recliner mechanism",
+    "color": "Dusty Rose",
+    "configuration": "3-Seater + 2 Single Recliners (5-Seater set)",
+    "upholstery": "Dusty rose fabric, box-tufted seat and back cushions",
+    "image": "/Metro_Product_Images/MTC-105_Stuart_Sofa.jpg",
+    "images": [
+      "/Metro_Product_Images/MTC-105_Stuart_Sofa.jpg"
+    ],
+    "warranty": true,
+    "onRequest": false,
+    "featured": true,
+    "offer": "29% OFF",
+    "description": "Soft-blush recliner sofa set for a warm, elegant living room. 3-Seater + 2 Single Recliners (5-Seater set). Dusty rose fabric, box-tufted seat and back cushions.",
+    "features": [
+      "3-Seater + 2 Single Recliners (5-Seater set)",
+      "Dusty rose fabric, box-tufted seat and back cushions",
+      "Wooden armrest trim, manual recliner mechanism",
+      "Extendable footrests on both armchairs",
+      "Plush pillow-top arms",
+      "Available at Metro Furniture showroom, Dharmapuri"
+    ],
+    "specs": [
+      {
+        "label": "Configuration",
+        "value": "3-Seater + 2 Single Recliners (5-Seater set)"
+      },
+      {
+        "label": "Upholstery",
+        "value": "Dusty rose fabric, box-tufted seat and back cushions"
+      },
+      {
+        "label": "Frame & Legs",
+        "value": "Wooden armrest trim, manual recliner mechanism"
+      },
+      {
+        "label": "Colour",
+        "value": "Dusty Rose"
+      }
+    ],
+    "tags": [
+      "sofas",
+      "dusty rose",
+      "sofa",
+      "furniture"
+    ],
+    "related": [
+      "mtc-104",
+      "mtc-106",
+      "mtc-107",
+      "mtc-109"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "mtc-106",
+    "slug": "dinesh-sofa",
+    "model": "MTC-106",
+    "name": "Dinesh Sofa",
+    "category": "Sofas",
+    "tagline": "Everyday-comfort sofa set with contrast stitching",
+    "price": 27499,
+    "mrp": 38990,
+    "priceUnit": "set",
+    "priceLabel": "₹27,499",
+    "material": "Dark walnut base trim, sturdy engineered wood frame",
+    "color": "Camel Tan",
+    "configuration": "3-Seater + 2 Single Recliners (5-Seater set)",
+    "upholstery": "Camel-tan fabric with box-tufted cushions, contrast topstitch",
+    "image": "/Metro_Product_Images/MTC-106_Dinesh_Sofa.jpg",
+    "images": [
+      "/Metro_Product_Images/MTC-106_Dinesh_Sofa.jpg"
+    ],
+    "warranty": true,
+    "onRequest": false,
+    "featured": false,
+    "offer": "29% OFF",
+    "description": "Everyday-comfort sofa set with contrast stitching. 3-Seater + 2 Single Recliners (5-Seater set). Camel-tan fabric with box-tufted cushions, contrast topstitch.",
+    "features": [
+      "3-Seater + 2 Single Recliners (5-Seater set)",
+      "Camel-tan fabric with box-tufted cushions, contrast topstitch",
+      "Dark walnut base trim, sturdy engineered wood frame",
+      "Bolster armrest cushions",
+      "Medium-firm foam seating",
+      "Available at Metro Furniture showroom, Dharmapuri"
+    ],
+    "specs": [
+      {
+        "label": "Configuration",
+        "value": "3-Seater + 2 Single Recliners (5-Seater set)"
+      },
+      {
+        "label": "Upholstery",
+        "value": "Camel-tan fabric with box-tufted cushions, contrast topstitch"
+      },
+      {
+        "label": "Frame & Legs",
+        "value": "Dark walnut base trim, sturdy engineered wood frame"
+      },
+      {
+        "label": "Colour",
+        "value": "Camel Tan"
+      }
+    ],
+    "tags": [
+      "sofas",
+      "camel tan",
+      "sofa",
+      "furniture"
+    ],
+    "related": [
+      "mtc-104",
+      "mtc-105",
+      "mtc-107",
+      "mtc-109"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "mtc-107",
+    "slug": "rolex-sofa",
+    "model": "MTC-107",
+    "name": "Rolex Sofa",
+    "category": "Sofas",
+    "tagline": "Petrol-blue channel-tufted sofa set, statement centrepiece",
+    "price": 28999,
+    "mrp": 40990,
+    "priceUnit": "set",
+    "priceLabel": "₹28,999",
+    "material": "Compact block legs, engineered wood frame",
+    "color": "Deep Teal",
+    "configuration": "3-Seater + 2 Single Recliners (5-Seater set)",
+    "upholstery": "Deep teal fabric, vertical channel tufting on back and seat",
+    "image": "/Metro_Product_Images/MTC-107_Rolex_Sofa.jpg",
+    "images": [
+      "/Metro_Product_Images/MTC-107_Rolex_Sofa.jpg"
+    ],
+    "warranty": true,
+    "onRequest": false,
+    "featured": false,
+    "offer": "29% OFF",
+    "description": "Petrol-blue channel-tufted sofa set, statement centrepiece. 3-Seater + 2 Single Recliners (5-Seater set). Deep teal fabric, vertical channel tufting on back and seat.",
+    "features": [
+      "3-Seater + 2 Single Recliners (5-Seater set)",
+      "Deep teal fabric, vertical channel tufting on back and seat",
+      "Compact block legs, engineered wood frame",
+      "Rolled bolster arms",
+      "Tailored piping along seams",
+      "Available at Metro Furniture showroom, Dharmapuri"
+    ],
+    "specs": [
+      {
+        "label": "Configuration",
+        "value": "3-Seater + 2 Single Recliners (5-Seater set)"
+      },
+      {
+        "label": "Upholstery",
+        "value": "Deep teal fabric, vertical channel tufting on back and seat"
+      },
+      {
+        "label": "Frame & Legs",
+        "value": "Compact block legs, engineered wood frame"
+      },
+      {
+        "label": "Colour",
+        "value": "Deep Teal"
+      }
+    ],
+    "tags": [
+      "sofas",
+      "deep teal",
+      "sofa",
+      "furniture"
+    ],
+    "related": [
+      "mtc-104",
+      "mtc-105",
+      "mtc-106",
+      "mtc-109"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "mtc-108",
+    "slug": "monaco-corner",
+    "model": "MTC-108",
+    "name": "Monaco Corner",
+    "category": "Corner Sofas",
+    "tagline": "Deep-tufted wine velvet L-shape corner with gold-band accents",
+    "price": 35499,
+    "mrp": 49990,
+    "priceUnit": "set",
+    "priceLabel": "₹35,499",
+    "material": "Engineered wood frame, block legs",
+    "color": "Wine Velvet",
+    "configuration": "6-Seater L-Shape Corner",
+    "upholstery": "Wine velvet fabric, diamond-stitched backrests",
+    "image": "/Metro_Product_Images/MTC-108_Monaco_Corner.jpg",
+    "images": [
+      "/Metro_Product_Images/MTC-108_Monaco_Corner.jpg"
+    ],
+    "warranty": true,
+    "onRequest": false,
+    "featured": false,
+    "offer": "29% OFF",
+    "description": "Deep-tufted wine velvet L-shape corner with gold-band accents. 6-Seater L-Shape Corner. Wine velvet fabric, diamond-stitched backrests.",
+    "features": [
+      "6-Seater L-Shape Corner",
+      "Wine velvet fabric, diamond-stitched backrests",
+      "Engineered wood frame, block legs",
+      "Gold-tone metallic accent band on bolster cushions",
+      "Available at Metro Furniture showroom, Dharmapuri"
+    ],
+    "specs": [
+      {
+        "label": "Configuration",
+        "value": "6-Seater L-Shape Corner"
+      },
+      {
+        "label": "Upholstery",
+        "value": "Wine velvet fabric, diamond-stitched backrests"
+      },
+      {
+        "label": "Frame & Legs",
+        "value": "Engineered wood frame, block legs"
+      },
+      {
+        "label": "Colour",
+        "value": "Wine Velvet"
+      }
+    ],
+    "tags": [
+      "corner sofas",
+      "wine velvet",
+      "sofa",
+      "furniture"
+    ],
+    "related": [
+      "mtc-101",
+      "mtc-102",
+      "mtc-103",
+      "mtc-111"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "mtc-109",
+    "slug": "sierra-sofa",
+    "model": "MTC-109",
+    "name": "Sierra Sofa",
+    "category": "Sofas",
+    "tagline": "Warm beige sofa set with glossy wood armrest trim",
+    "price": 27999,
+    "mrp": 39990,
+    "priceUnit": "set",
+    "priceLabel": "₹27,999",
+    "material": "Polished wood armrest trim, block legs",
+    "color": "Warm Beige",
+    "configuration": "3-Seater + 2 Single Recliners (5-Seater set)",
+    "upholstery": "Warm beige fabric, box-tufted cushions",
+    "image": "/Metro_Product_Images/MTC-109_Sierra_Sofa.jpg",
+    "images": [
+      "/Metro_Product_Images/MTC-109_Sierra_Sofa.jpg"
+    ],
+    "warranty": true,
+    "onRequest": false,
+    "featured": false,
+    "offer": "30% OFF",
+    "description": "Warm beige sofa set with glossy wood armrest trim. 3-Seater + 2 Single Recliners (5-Seater set). Warm beige fabric, box-tufted cushions.",
+    "features": [
+      "3-Seater + 2 Single Recliners (5-Seater set)",
+      "Warm beige fabric, box-tufted cushions",
+      "Polished wood armrest trim, block legs",
+      "Matching armchair pair",
+      "Soft pillow-top backrests",
+      "Available at Metro Furniture showroom, Dharmapuri"
+    ],
+    "specs": [
+      {
+        "label": "Configuration",
+        "value": "3-Seater + 2 Single Recliners (5-Seater set)"
+      },
+      {
+        "label": "Upholstery",
+        "value": "Warm beige fabric, box-tufted cushions"
+      },
+      {
+        "label": "Frame & Legs",
+        "value": "Polished wood armrest trim, block legs"
+      },
+      {
+        "label": "Colour",
+        "value": "Warm Beige"
+      }
+    ],
+    "tags": [
+      "sofas",
+      "warm beige",
+      "sofa",
+      "furniture"
+    ],
+    "related": [
+      "mtc-104",
+      "mtc-105",
+      "mtc-106",
+      "mtc-107"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "mtc-110",
+    "slug": "windsor-recliner-sofa",
+    "model": "MTC-110",
+    "name": "Windsor Recliner Sofa",
+    "category": "Sofas",
+    "tagline": "Rugged suede-finish reclining sofa with channel-stitched cushions",
+    "price": 25999,
+    "mrp": 36990,
+    "priceUnit": "set",
+    "priceLabel": "₹25,999",
+    "material": "Reinforced recliner mechanism, engineered wood base",
+    "color": "Warm Brown",
+    "configuration": "3-Seater manual recliner sofa",
+    "upholstery": "Warm brown suede-touch fabric, channel-stitched back and seat",
+    "image": "/Metro_Product_Images/MTC-110_Windsor_Recliner_Sofa.jpg",
+    "images": [
+      "/Metro_Product_Images/MTC-110_Windsor_Recliner_Sofa.jpg"
+    ],
+    "warranty": true,
+    "onRequest": false,
+    "featured": false,
+    "offer": "30% OFF",
+    "description": "Rugged suede-finish reclining sofa with channel-stitched cushions. 3-Seater manual recliner sofa. Warm brown suede-touch fabric, channel-stitched back and seat.",
+    "features": [
+      "3-Seater manual recliner sofa",
+      "Warm brown suede-touch fabric, channel-stitched back and seat",
+      "Reinforced recliner mechanism, engineered wood base",
+      "Extendable footrest",
+      "Contrast top-stitching along seams",
+      "Available at Metro Furniture showroom, Dharmapuri"
+    ],
+    "specs": [
+      {
+        "label": "Configuration",
+        "value": "3-Seater manual recliner sofa"
+      },
+      {
+        "label": "Upholstery",
+        "value": "Warm brown suede-touch fabric, channel-stitched back and seat"
+      },
+      {
+        "label": "Frame & Legs",
+        "value": "Reinforced recliner mechanism, engineered wood base"
+      },
+      {
+        "label": "Colour",
+        "value": "Warm Brown"
+      }
+    ],
+    "tags": [
+      "sofas",
+      "warm brown",
+      "sofa",
+      "furniture"
+    ],
+    "related": [
+      "mtc-104",
+      "mtc-105",
+      "mtc-106",
+      "mtc-107"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "mtc-111",
+    "slug": "oxford-corner",
+    "model": "MTC-111",
+    "name": "Oxford Corner",
+    "category": "Corner Sofas",
+    "tagline": "Button-tufted grey corner sofa with built-in wooden tray tables",
+    "price": 36999,
+    "mrp": 51990,
+    "priceUnit": "set",
+    "priceLabel": "₹36,999",
+    "material": "Polished wood tray-table armrests, block legs",
+    "color": "Grey",
+    "configuration": "6-Seater L-Shape Corner",
+    "upholstery": "Grey fabric, deep button tufting throughout",
+    "image": "/Metro_Product_Images/MTC-111_Oxford_Corner.jpg",
+    "images": [
+      "/Metro_Product_Images/MTC-111_Oxford_Corner.jpg"
+    ],
+    "warranty": true,
+    "onRequest": false,
+    "featured": false,
+    "offer": "29% OFF",
+    "description": "Button-tufted grey corner sofa with built-in wooden tray tables. 6-Seater L-Shape Corner. Grey fabric, deep button tufting throughout.",
+    "features": [
+      "6-Seater L-Shape Corner",
+      "Grey fabric, deep button tufting throughout",
+      "Polished wood tray-table armrests, block legs",
+      "Built-in flip-out wooden side tables on both arms",
+      "Available at Metro Furniture showroom, Dharmapuri"
+    ],
+    "specs": [
+      {
+        "label": "Configuration",
+        "value": "6-Seater L-Shape Corner"
+      },
+      {
+        "label": "Upholstery",
+        "value": "Grey fabric, deep button tufting throughout"
+      },
+      {
+        "label": "Frame & Legs",
+        "value": "Polished wood tray-table armrests, block legs"
+      },
+      {
+        "label": "Colour",
+        "value": "Grey"
+      }
+    ],
+    "tags": [
+      "corner sofas",
+      "grey",
+      "sofa",
+      "furniture"
+    ],
+    "related": [
+      "mtc-101",
+      "mtc-102",
+      "mtc-103",
+      "mtc-108"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "mtc-112",
+    "slug": "ruby-velvet-sofa",
+    "model": "MTC-112",
+    "name": "Ruby Velvet Sofa",
+    "category": "Sofas",
+    "tagline": "Statement red velvet sofa set with gold-band bolster cushions",
+    "price": 30999,
+    "mrp": 43990,
+    "priceUnit": "set",
+    "priceLabel": "₹30,999",
+    "material": "Engineered wood frame, block legs",
+    "color": "Deep Red",
+    "configuration": "3-Seater sofa (matching armchairs available)",
+    "upholstery": "Deep red velvet fabric, gold-piped edges",
+    "image": "/Metro_Product_Images/MTC-112_Ruby_Velvet_Sofa.jpg",
+    "images": [
+      "/Metro_Product_Images/MTC-112_Ruby_Velvet_Sofa.jpg"
+    ],
+    "warranty": true,
+    "onRequest": false,
+    "featured": false,
+    "offer": "30% OFF",
+    "description": "Statement red velvet sofa set with gold-band bolster cushions. 3-Seater sofa (matching armchairs available). Deep red velvet fabric, gold-piped edges.",
+    "features": [
+      "3-Seater sofa (matching armchairs available)",
+      "Deep red velvet fabric, gold-piped edges",
+      "Engineered wood frame, block legs",
+      "Gold metallic-band bolster cushions",
+      "Tailored box seating",
+      "Available at Metro Furniture showroom, Dharmapuri"
+    ],
+    "specs": [
+      {
+        "label": "Configuration",
+        "value": "3-Seater sofa (matching armchairs available)"
+      },
+      {
+        "label": "Upholstery",
+        "value": "Deep red velvet fabric, gold-piped edges"
+      },
+      {
+        "label": "Frame & Legs",
+        "value": "Engineered wood frame, block legs"
+      },
+      {
+        "label": "Colour",
+        "value": "Deep Red"
+      }
+    ],
+    "tags": [
+      "sofas",
+      "deep red",
+      "sofa",
+      "furniture"
+    ],
+    "related": [
+      "mtc-104",
+      "mtc-105",
+      "mtc-106",
+      "mtc-107"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "mtc-113",
+    "slug": "nova-corner",
+    "model": "MTC-113",
+    "name": "Nova Corner",
+    "category": "Corner Sofas",
+    "tagline": "Grey fabric corner sofa with a built-in cup-holder console",
+    "price": 34499,
+    "mrp": 48990,
+    "priceUnit": "set",
+    "priceLabel": "₹34,499",
+    "material": "Engineered wood frame, block legs",
+    "color": "Charcoal Grey",
+    "configuration": "6-Seater L-Shape Corner with center console",
+    "upholstery": "Charcoal-grey fabric, contrast top-stitching",
+    "image": "/Metro_Product_Images/MTC-113_Nova_Corner.jpg",
+    "images": [
+      "/Metro_Product_Images/MTC-113_Nova_Corner.jpg"
+    ],
+    "warranty": true,
+    "onRequest": false,
+    "featured": false,
+    "offer": "30% OFF",
+    "description": "Grey fabric corner sofa with a built-in cup-holder console. 6-Seater L-Shape Corner with center console. Charcoal-grey fabric, contrast top-stitching.",
+    "features": [
+      "6-Seater L-Shape Corner with center console",
+      "Charcoal-grey fabric, contrast top-stitching",
+      "Engineered wood frame, block legs",
+      "Fold-down center console with twin cup holders",
+      "Available at Metro Furniture showroom, Dharmapuri"
+    ],
+    "specs": [
+      {
+        "label": "Configuration",
+        "value": "6-Seater L-Shape Corner with center console"
+      },
+      {
+        "label": "Upholstery",
+        "value": "Charcoal-grey fabric, contrast top-stitching"
+      },
+      {
+        "label": "Frame & Legs",
+        "value": "Engineered wood frame, block legs"
+      },
+      {
+        "label": "Colour",
+        "value": "Charcoal Grey"
+      }
+    ],
+    "tags": [
+      "corner sofas",
+      "charcoal grey",
+      "sofa",
+      "furniture"
+    ],
+    "related": [
+      "mtc-101",
+      "mtc-102",
+      "mtc-103",
+      "mtc-108"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "mtc-114",
+    "slug": "grand-bay-corner",
+    "model": "MTC-114",
+    "name": "Grand Bay Corner",
+    "category": "Corner Sofas",
+    "tagline": "Oversized U-shape sectional for large living rooms",
+    "price": 47999,
+    "mrp": 68990,
+    "priceUnit": "set",
+    "priceLabel": "₹47,999",
+    "material": "Wood-trim armrests, reinforced recliner mechanism",
+    "color": "Grey Brown",
+    "configuration": "8-Seater U-Shape Sectional with 2 recliner ends",
+    "upholstery": "Grey-brown textured fabric, box-tufted cushions",
+    "image": "/Metro_Product_Images/MTC-114_Grand_Bay_Corner.jpg",
+    "images": [
+      "/Metro_Product_Images/MTC-114_Grand_Bay_Corner.jpg"
+    ],
+    "warranty": true,
+    "onRequest": false,
+    "featured": true,
+    "offer": "30% OFF",
+    "description": "Oversized U-shape sectional for large living rooms. 8-Seater U-Shape Sectional with 2 recliner ends. Grey-brown textured fabric, box-tufted cushions.",
+    "features": [
+      "8-Seater U-Shape Sectional with 2 recliner ends",
+      "Grey-brown textured fabric, box-tufted cushions",
+      "Wood-trim armrests, reinforced recliner mechanism",
+      "Dual recliner ends",
+      "Deep bench seating",
+      "Center console",
+      "Available at Metro Furniture showroom, Dharmapuri"
+    ],
+    "specs": [
+      {
+        "label": "Configuration",
+        "value": "8-Seater U-Shape Sectional with 2 recliner ends"
+      },
+      {
+        "label": "Upholstery",
+        "value": "Grey-brown textured fabric, box-tufted cushions"
+      },
+      {
+        "label": "Frame & Legs",
+        "value": "Wood-trim armrests, reinforced recliner mechanism"
+      },
+      {
+        "label": "Colour",
+        "value": "Grey Brown"
+      }
+    ],
+    "tags": [
+      "corner sofas",
+      "grey brown",
+      "sofa",
+      "furniture"
+    ],
+    "related": [
+      "mtc-101",
+      "mtc-102",
+      "mtc-103",
+      "mtc-108"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "mtc-115",
+    "slug": "onyx-leather-sofa",
+    "model": "MTC-115",
+    "name": "Onyx Leather Sofa",
+    "category": "Sofas",
+    "tagline": "Sleek black leatherette sofa for a modern living room",
+    "price": 30499,
+    "mrp": 42990,
+    "priceUnit": "set",
+    "priceLabel": "₹30,499",
+    "material": "Engineered wood frame, block legs",
+    "color": "Black",
+    "configuration": "3-Seater sofa",
+    "upholstery": "Black leatherette upholstery, box-cushion back",
+    "image": "/Metro_Product_Images/MTC-115_Onyx_Leather_Sofa.jpg",
+    "images": [
+      "/Metro_Product_Images/MTC-115_Onyx_Leather_Sofa.jpg"
+    ],
+    "warranty": true,
+    "onRequest": false,
+    "featured": false,
+    "offer": "29% OFF",
+    "description": "Sleek black leatherette sofa for a modern living room. 3-Seater sofa. Black leatherette upholstery, box-cushion back.",
+    "features": [
+      "3-Seater sofa",
+      "Black leatherette upholstery, box-cushion back",
+      "Engineered wood frame, block legs",
+      "Water-resistant leatherette finish",
+      "Easy-clean surface",
+      "Available at Metro Furniture showroom, Dharmapuri"
+    ],
+    "specs": [
+      {
+        "label": "Configuration",
+        "value": "3-Seater sofa"
+      },
+      {
+        "label": "Upholstery",
+        "value": "Black leatherette upholstery, box-cushion back"
+      },
+      {
+        "label": "Frame & Legs",
+        "value": "Engineered wood frame, block legs"
+      },
+      {
+        "label": "Colour",
+        "value": "Black"
+      }
+    ],
+    "tags": [
+      "sofas",
+      "black",
+      "sofa",
+      "furniture"
+    ],
+    "related": [
+      "mtc-104",
+      "mtc-105",
+      "mtc-106",
+      "mtc-107"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "light-1",
+    "slug": "cosmo-ring-wall-sconce-astronaut-edition",
+    "model": "LL-D6054",
+    "name": "Cosmo Ring Wall Sconce — Astronaut Edition",
+    "category": "Wall Lights",
+    "tagline": "LED Wall Light",
+    "price": 1737,
+    "mrp": null,
+    "priceUnit": "pc",
+    "priceLabel": "₹1,737",
+    "material": "White Body, Wood Finish Shelf",
+    "image": "/Lights_Products/LL-D6054.jpg",
+    "images": [
+      "/Lights_Products/LL-D6054.jpg"
+    ],
+    "warranty": true,
+    "onRequest": false,
+    "featured": true,
+    "offer": null,
+    "description": "A playful ring-form sconce that doubles as a display shelf, the halo of light framing a hand-finished walnut ledge. Perfect for kids' rooms, reading nooks, or a whimsical accent wall — the built-in RGB action mode adds color-changing ambience on demand.",
+    "features": [
+      "Light Mode: 3-in-1 LED — Warm White + RGB + Action",
+      "Body Finish: White Body, Wood Finish Shelf",
+      "Diameter: 300 mm",
+      "List Price: Rs 1,737"
+    ],
+    "specs": [
+      {
+        "label": "Light Mode",
+        "value": "3-in-1 LED — Warm White + RGB + Action"
+      },
+      {
+        "label": "Body Finish",
+        "value": "White Body, Wood Finish Shelf"
+      },
+      {
+        "label": "Diameter",
+        "value": "300 mm"
+      },
+      {
+        "label": "List Price",
+        "value": "Rs 1,737"
+      }
+    ],
+    "tags": [
+      "wall lights",
+      "lighting",
+      "led",
+      "led wall light"
+    ],
+    "related": [
+      "light-2",
+      "light-16",
+      "light-17",
+      "light-18"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "light-2",
+    "slug": "cosmo-ring-wall-sconce-golden-bear-edition",
+    "model": "LL-D6056",
+    "name": "Cosmo Ring Wall Sconce — Golden Bear Edition",
+    "category": "Wall Lights",
+    "tagline": "LED Wall Light",
+    "price": 1737,
+    "mrp": null,
+    "priceUnit": "pc",
+    "priceLabel": "₹1,737",
+    "material": "White Body, Wood Finish Shelf",
+    "image": "/Lights_Products/LL-D6056.jpg",
+    "images": [
+      "/Lights_Products/LL-D6056.jpg"
+    ],
+    "warranty": true,
+    "onRequest": false,
+    "featured": true,
+    "offer": null,
+    "description": "The same beloved ring silhouette as its Cosmo sibling, styled here with a gilded bear figurine on a warm wood shelf. A soft-glow companion piece for nurseries, hallways, and gallery walls that calls for a touch of charm.",
+    "features": [
+      "Light Mode: 3-in-1 LED — Warm White + RGB + Action",
+      "Body Finish: White Body, Wood Finish Shelf",
+      "Diameter: 300 mm",
+      "List Price: Rs 1,737"
+    ],
+    "specs": [
+      {
+        "label": "Light Mode",
+        "value": "3-in-1 LED — Warm White + RGB + Action"
+      },
+      {
+        "label": "Body Finish",
+        "value": "White Body, Wood Finish Shelf"
+      },
+      {
+        "label": "Diameter",
+        "value": "300 mm"
+      },
+      {
+        "label": "List Price",
+        "value": "Rs 1,737"
+      }
+    ],
+    "tags": [
+      "wall lights",
+      "lighting",
+      "led",
+      "led wall light"
+    ],
+    "related": [
+      "light-1",
+      "light-16",
+      "light-17",
+      "light-18"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "light-3",
+    "slug": "bubble-drop-chandelier-16-strand",
+    "model": "LL-D5463",
+    "name": "Bubble Drop Chandelier — 16 Strand",
+    "category": "Chandeliers",
+    "tagline": "LED Cluster Chandelier",
+    "price": null,
+    "mrp": null,
+    "priceUnit": "pc",
+    "priceLabel": "Get Best Price",
+    "material": "French Gold, Crystal",
+    "color": "Gold",
+    "image": "/Lights_Products/LL-D5463.jpg",
+    "images": [
+      "/Lights_Products/LL-D5463.jpg"
+    ],
+    "warranty": true,
+    "onRequest": true,
+    "featured": true,
+    "offer": null,
+    "description": "Sixteen crystal bubble pendants cascade from a French-gold ceiling plate at staggered heights, each strand tipped with a faceted glass rod. Designed for stairwells and double-height foyers where a shimmering, jewellery-like drop makes the strongest first impression.",
+    "features": [
+      "Light Mode: 3-in-1 LED — White + Warm White",
+      "Hangings: 16 Strands",
+      "Body Finish: French Gold, Crystal"
+    ],
+    "specs": [
+      {
+        "label": "Light Mode",
+        "value": "3-in-1 LED — White + Warm White"
+      },
+      {
+        "label": "Hangings",
+        "value": "16 Strands"
+      },
+      {
+        "label": "Body Finish",
+        "value": "French Gold, Crystal"
+      }
+    ],
+    "tags": [
+      "chandeliers",
+      "lighting",
+      "led",
+      "led cluster chandelier"
+    ],
+    "related": [
+      "light-4",
+      "light-5",
+      "light-6",
+      "light-7"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "light-4",
+    "slug": "bubble-drop-chandelier-25-strand-grand",
+    "model": "LL-D5464",
+    "name": "Bubble Drop Chandelier — 25 Strand Grand",
+    "category": "Chandeliers",
+    "tagline": "LED Cluster Chandelier",
+    "price": null,
+    "mrp": null,
+    "priceUnit": "pc",
+    "priceLabel": "Get Best Price",
+    "material": "French Gold, Crystal",
+    "color": "Gold",
+    "image": "/Lights_Products/LL-D5464.jpg",
+    "images": [
+      "/Lights_Products/LL-D5464.jpg"
+    ],
+    "warranty": true,
+    "onRequest": true,
+    "featured": true,
+    "offer": null,
+    "description": "The full-scale expression of our Bubble Drop family — twenty-five crystal-and-gold strands fill out a wide canopy for a fuller, more theatrical spill of light. Built for grand stairwells, banquet entries, and living rooms with generous ceiling height.",
+    "features": [
+      "Light Mode: 3-in-1 LED — White + Warm White",
+      "Hangings: 25 Strands",
+      "Body Finish: French Gold, Crystal"
+    ],
+    "specs": [
+      {
+        "label": "Light Mode",
+        "value": "3-in-1 LED — White + Warm White"
+      },
+      {
+        "label": "Hangings",
+        "value": "25 Strands"
+      },
+      {
+        "label": "Body Finish",
+        "value": "French Gold, Crystal"
+      }
+    ],
+    "tags": [
+      "chandeliers",
+      "lighting",
+      "led",
+      "led cluster chandelier"
+    ],
+    "related": [
+      "light-3",
+      "light-5",
+      "light-6",
+      "light-7"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "light-5",
+    "slug": "icicle-cascade-chandelier",
+    "model": "LL-D5462",
+    "name": "Icicle Cascade Chandelier",
+    "category": "Chandeliers",
+    "tagline": "LED Cluster Chandelier",
+    "price": null,
+    "mrp": null,
+    "priceUnit": "pc",
+    "priceLabel": "Get Best Price",
+    "material": "French Gold, Crystal",
+    "color": "Gold",
+    "image": "/Lights_Products/LL-D5462.jpg",
+    "images": [
+      "/Lights_Products/LL-D5462.jpg"
+    ],
+    "warranty": true,
+    "onRequest": true,
+    "featured": false,
+    "offer": null,
+    "description": "Elongated crystal icicles taper to soft points, spiralling down from a brushed-gold canopy in an irregular, frozen-waterfall pattern. A striking centrepiece for stairwells and lobby ceilings that calls for real drama and scale.",
+    "features": [
+      "Light Mode: 3-in-1 LED — White + Warm White",
+      "Hangings: 25 Strands",
+      "Body Finish: French Gold, Crystal"
+    ],
+    "specs": [
+      {
+        "label": "Light Mode",
+        "value": "3-in-1 LED — White + Warm White"
+      },
+      {
+        "label": "Hangings",
+        "value": "25 Strands"
+      },
+      {
+        "label": "Body Finish",
+        "value": "French Gold, Crystal"
+      }
+    ],
+    "tags": [
+      "chandeliers",
+      "lighting",
+      "led",
+      "led cluster chandelier"
+    ],
+    "related": [
+      "light-3",
+      "light-4",
+      "light-6",
+      "light-7"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "light-6",
+    "slug": "orbit-ring-spiral-pendant",
+    "model": "LL-D5221",
+    "name": "Orbit Ring Spiral Pendant",
+    "category": "Chandeliers",
+    "tagline": "LED Spiral Chandelier",
+    "price": null,
+    "mrp": null,
+    "priceUnit": "pc",
+    "priceLabel": "Get Best Price",
+    "material": "Gold, Acrylic",
+    "color": "Gold",
+    "image": "/Lights_Products/LL-D5221.jpg",
+    "images": [
+      "/Lights_Products/LL-D5221.jpg"
+    ],
+    "warranty": true,
+    "onRequest": true,
+    "featured": false,
+    "offer": null,
+    "description": "Twelve illuminated acrylic rings wind down a spiral path like a slow-motion helix, each one glowing from its own gold-trimmed edge. A sculptural, contemporary choice for open stairwells and double-volume dining spaces.",
+    "features": [
+      "Light Mode: 3-in-1 LED — White + Warm White",
+      "Hangings: 12 Rings",
+      "Body Finish: Gold, Acrylic"
+    ],
+    "specs": [
+      {
+        "label": "Light Mode",
+        "value": "3-in-1 LED — White + Warm White"
+      },
+      {
+        "label": "Hangings",
+        "value": "12 Rings"
+      },
+      {
+        "label": "Body Finish",
+        "value": "Gold, Acrylic"
+      }
+    ],
+    "tags": [
+      "chandeliers",
+      "lighting",
+      "led",
+      "led spiral chandelier"
+    ],
+    "related": [
+      "light-3",
+      "light-4",
+      "light-5",
+      "light-7"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "light-7",
+    "slug": "feather-leaf-spiral-pendant",
+    "model": "LL-D5246",
+    "name": "Feather Leaf Spiral Pendant",
+    "category": "Chandeliers",
+    "tagline": "LED Spiral Chandelier",
+    "price": null,
+    "mrp": null,
+    "priceUnit": "pc",
+    "priceLabel": "Get Best Price",
+    "material": "Rose Gold, Acrylic",
+    "color": "Gold",
+    "image": "/Lights_Products/LL-D5246.jpg",
+    "images": [
+      "/Lights_Products/LL-D5246.jpg"
+    ],
+    "warranty": true,
+    "onRequest": true,
+    "featured": false,
+    "offer": null,
+    "description": "Ten rose-gold leaf forms spiral gently downward, each lit along its curved edge for a soft, organic glow. Its compact drop suits stairwells, bedside niches, and smaller foyers looking for a graceful sculptural moment.",
+    "features": [
+      "Light Mode: 3-in-1 LED — White + Warm White",
+      "Hangings: 10 Leaves",
+      "Body Finish: Rose Gold, Acrylic"
+    ],
+    "specs": [
+      {
+        "label": "Light Mode",
+        "value": "3-in-1 LED — White + Warm White"
+      },
+      {
+        "label": "Hangings",
+        "value": "10 Leaves"
+      },
+      {
+        "label": "Body Finish",
+        "value": "Rose Gold, Acrylic"
+      }
+    ],
+    "tags": [
+      "chandeliers",
+      "lighting",
+      "led",
+      "led spiral chandelier"
+    ],
+    "related": [
+      "light-3",
+      "light-4",
+      "light-5",
+      "light-6"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "light-8",
+    "slug": "petal-bloom-crystal-chandelier",
+    "model": "LL-D5460",
+    "name": "Petal Bloom Crystal Chandelier",
+    "category": "Chandeliers",
+    "tagline": "Crystal Chandelier",
+    "price": null,
+    "mrp": null,
+    "priceUnit": "pc",
+    "priceLabel": "Get Best Price",
+    "material": "Heavy Glass + Crystal",
+    "image": "/Lights_Products/LL-D5460.jpg",
+    "images": [
+      "/Lights_Products/LL-D5460.jpg"
+    ],
+    "warranty": true,
+    "onRequest": true,
+    "featured": false,
+    "offer": null,
+    "description": "Layered glass petals ring the frame like a flower in full bloom, finished with a fringe of hand-cut crystal drops beneath. A romantic, traditional silhouette suited to formal living rooms and dining tables.",
+    "features": [
+      "Lamp Holder: E14",
+      "Material: Heavy Glass + Crystal",
+      "Diameter: 600 mm"
+    ],
+    "specs": [
+      {
+        "label": "Lamp Holder",
+        "value": "E14"
+      },
+      {
+        "label": "Material",
+        "value": "Heavy Glass + Crystal"
+      },
+      {
+        "label": "Diameter",
+        "value": "600 mm"
+      }
+    ],
+    "tags": [
+      "chandeliers",
+      "lighting",
+      "led",
+      "crystal chandelier"
+    ],
+    "related": [
+      "light-3",
+      "light-4",
+      "light-5",
+      "light-6"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "light-9",
+    "slug": "empire-tiered-crystal-chandelier",
+    "model": "LLA1707",
+    "name": "Empire Tiered Crystal Chandelier",
+    "category": "Chandeliers",
+    "tagline": "Crystal Chandelier",
+    "price": null,
+    "mrp": null,
+    "priceUnit": "pc",
+    "priceLabel": "Get Best Price",
+    "material": "Gold, Crystal",
+    "color": "Gold",
+    "image": "/Lights_Products/LLA1707.jpg",
+    "images": [
+      "/Lights_Products/LLA1707.jpg"
+    ],
+    "warranty": true,
+    "onRequest": true,
+    "featured": false,
+    "offer": null,
+    "description": "A classic Empire-style silhouette built from tiers of beaded crystal strands, cinched at the waist and flaring into a full crystal skirt. Timeless proportions make this the natural centrepiece for a formal dining room or grand entry.",
+    "features": [
+      "Lamp Holder: E14",
+      "Body Finish: Gold, Crystal",
+      "Diameter: 600 mm"
+    ],
+    "specs": [
+      {
+        "label": "Lamp Holder",
+        "value": "E14"
+      },
+      {
+        "label": "Body Finish",
+        "value": "Gold, Crystal"
+      },
+      {
+        "label": "Diameter",
+        "value": "600 mm"
+      }
+    ],
+    "tags": [
+      "chandeliers",
+      "lighting",
+      "led",
+      "crystal chandelier"
+    ],
+    "related": [
+      "light-3",
+      "light-4",
+      "light-5",
+      "light-6"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "light-10",
+    "slug": "double-tier-crystal-drum-chandelier",
+    "model": "LL-D5461",
+    "name": "Double-Tier Crystal Drum Chandelier",
+    "category": "Chandeliers",
+    "tagline": "LED Crystal Chandelier",
+    "price": null,
+    "mrp": null,
+    "priceUnit": "pc",
+    "priceLabel": "Get Best Price",
+    "material": "Crystal",
+    "image": "/Lights_Products/LL-D5461.jpg",
+    "images": [
+      "/Lights_Products/LL-D5461.jpg"
+    ],
+    "warranty": true,
+    "onRequest": true,
+    "featured": false,
+    "offer": null,
+    "description": "Two beaded-crystal drums stack at different diameters, suspended on fine cables for a modern, architectural take on the traditional chandelier. Well suited to contemporary dining rooms and statement islands.",
+    "features": [
+      "Light Mode: 3-in-1 LED — White + Warm White",
+      "Material: Crystal",
+      "Diameter: 500 + 350 mm (two tiers)"
+    ],
+    "specs": [
+      {
+        "label": "Light Mode",
+        "value": "3-in-1 LED — White + Warm White"
+      },
+      {
+        "label": "Material",
+        "value": "Crystal"
+      },
+      {
+        "label": "Diameter",
+        "value": "500 + 350 mm (two tiers)"
+      }
+    ],
+    "tags": [
+      "chandeliers",
+      "lighting",
+      "led",
+      "led crystal chandelier"
+    ],
+    "related": [
+      "light-3",
+      "light-4",
+      "light-5",
+      "light-6"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "light-11",
+    "slug": "peacock-leaf-crystal-chandelier-small",
+    "model": "LL-D5459",
+    "name": "Peacock Leaf Crystal Chandelier — Small",
+    "category": "Chandeliers",
+    "tagline": "Crystal Chandelier",
+    "price": null,
+    "mrp": null,
+    "priceUnit": "pc",
+    "priceLabel": "Get Best Price",
+    "material": "Heavy Glass + Crystal",
+    "image": "/Lights_Products/LL-D5459.jpg",
+    "images": [
+      "/Lights_Products/LL-D5459.jpg"
+    ],
+    "warranty": true,
+    "onRequest": true,
+    "featured": false,
+    "offer": null,
+    "description": "Textured glass leaves fan outward in an intricate, feather-like layering, each edge caught with hand-set crystal beads. A refined statement piece sized for standard-height dining rooms and bedrooms.",
+    "features": [
+      "Lamp Holder: E14",
+      "Material: Heavy Glass + Crystal",
+      "Diameter: 600 mm"
+    ],
+    "specs": [
+      {
+        "label": "Lamp Holder",
+        "value": "E14"
+      },
+      {
+        "label": "Material",
+        "value": "Heavy Glass + Crystal"
+      },
+      {
+        "label": "Diameter",
+        "value": "600 mm"
+      }
+    ],
+    "tags": [
+      "chandeliers",
+      "lighting",
+      "led",
+      "crystal chandelier"
+    ],
+    "related": [
+      "light-3",
+      "light-4",
+      "light-5",
+      "light-6"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "light-12",
+    "slug": "peacock-leaf-crystal-chandelier-grand",
+    "model": "LL-D5458",
+    "name": "Peacock Leaf Crystal Chandelier — Grand",
+    "category": "Chandeliers",
+    "tagline": "Crystal Chandelier",
+    "price": null,
+    "mrp": null,
+    "priceUnit": "pc",
+    "priceLabel": "Get Best Price",
+    "material": "Heavy Glass + Crystal",
+    "image": "/Lights_Products/LL-D5458.jpg",
+    "images": [
+      "/Lights_Products/LL-D5458.jpg"
+    ],
+    "warranty": true,
+    "onRequest": true,
+    "featured": false,
+    "offer": null,
+    "description": "The larger sibling in the Peacock Leaf family, scaled up to 800mm for double-height living rooms and grand dining spaces. Tier upon tier of etched glass leaves catch and scatter light from every angle.",
+    "features": [
+      "Lamp Holder: E14",
+      "Material: Heavy Glass + Crystal",
+      "Diameter: 800 mm"
+    ],
+    "specs": [
+      {
+        "label": "Lamp Holder",
+        "value": "E14"
+      },
+      {
+        "label": "Material",
+        "value": "Heavy Glass + Crystal"
+      },
+      {
+        "label": "Diameter",
+        "value": "800 mm"
+      }
+    ],
+    "tags": [
+      "chandeliers",
+      "lighting",
+      "led",
+      "crystal chandelier"
+    ],
+    "related": [
+      "light-3",
+      "light-4",
+      "light-5",
+      "light-6"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "light-13",
+    "slug": "botanical-leaf-crystal-chandelier",
+    "model": "LL-D5457",
+    "name": "Botanical Leaf Crystal Chandelier",
+    "category": "Chandeliers",
+    "tagline": "Crystal Chandelier",
+    "price": null,
+    "mrp": null,
+    "priceUnit": "pc",
+    "priceLabel": "Get Best Price",
+    "material": "Heavy Glass + Crystal",
+    "image": "/Lights_Products/LL-D5457.jpg",
+    "images": [
+      "/Lights_Products/LL-D5457.jpg"
+    ],
+    "warranty": true,
+    "onRequest": true,
+    "featured": false,
+    "offer": null,
+    "description": "Rounded glass leaves layer into a full, textural canopy over a crystal-fringed underside, finished with a hand-twisted stem. A softer, botanical take on the crystal chandelier for bedrooms and reading rooms.",
+    "features": [
+      "Lamp Holder: E14",
+      "Material: Heavy Glass + Crystal",
+      "Diameter: 600 mm"
+    ],
+    "specs": [
+      {
+        "label": "Lamp Holder",
+        "value": "E14"
+      },
+      {
+        "label": "Material",
+        "value": "Heavy Glass + Crystal"
+      },
+      {
+        "label": "Diameter",
+        "value": "600 mm"
+      }
+    ],
+    "tags": [
+      "chandeliers",
+      "lighting",
+      "led",
+      "crystal chandelier"
+    ],
+    "related": [
+      "light-3",
+      "light-4",
+      "light-5",
+      "light-6"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "light-14",
+    "slug": "vortex-ring-cascade-chandelier-11-ring",
+    "model": "LL.A41700/11C FGD",
+    "name": "Vortex Ring Cascade Chandelier — 11 Ring",
+    "category": "Chandeliers",
+    "tagline": "LED Spiral Chandelier",
+    "price": null,
+    "mrp": null,
+    "priceUnit": "pc",
+    "priceLabel": "Get Best Price",
+    "material": "Crystal & Metal",
+    "image": "/Lights_Products/LL.A41700-11C-FGD.jpg",
+    "images": [
+      "/Lights_Products/LL.A41700-11C-FGD.jpg"
+    ],
+    "warranty": true,
+    "onRequest": true,
+    "featured": false,
+    "offer": null,
+    "description": "Eleven illuminated gold rings twist downward in a tightening spiral, evoking a slow tornado of light. Fully adjustable drop height plus dimmer and remote control make this a striking, flexible centrepiece for tall stairwells and atriums.",
+    "features": [
+      "Light Mode: 3-in-1 LED — White + Warm White",
+      "Drop Range: 1200 mm to 200 mm (adjustable)",
+      "Controls: Dimmer Option, Remote Option",
+      "Ring Count: 11 rings"
+    ],
+    "specs": [
+      {
+        "label": "Light Mode",
+        "value": "3-in-1 LED — White + Warm White"
+      },
+      {
+        "label": "Drop Range",
+        "value": "1200 mm to 200 mm (adjustable)"
+      },
+      {
+        "label": "Controls",
+        "value": "Dimmer Option, Remote Option"
+      },
+      {
+        "label": "Ring Count",
+        "value": "11 rings"
+      }
+    ],
+    "tags": [
+      "chandeliers",
+      "lighting",
+      "led",
+      "led spiral chandelier"
+    ],
+    "related": [
+      "light-3",
+      "light-4",
+      "light-5",
+      "light-6"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "light-15",
+    "slug": "vortex-ring-cascade-chandelier-9-ring",
+    "model": "LL.A41700/9C FGD",
+    "name": "Vortex Ring Cascade Chandelier — 9 Ring",
+    "category": "Chandeliers",
+    "tagline": "LED Spiral Chandelier",
+    "price": null,
+    "mrp": null,
+    "priceUnit": "pc",
+    "priceLabel": "Get Best Price",
+    "material": "Crystal & Metal",
+    "image": "/Lights_Products/LL.A41700-9C-FGD.jpg",
+    "images": [
+      "/Lights_Products/LL.A41700-9C-FGD.jpg"
+    ],
+    "warranty": true,
+    "onRequest": true,
+    "featured": false,
+    "offer": null,
+    "description": "A more compact version of our Vortex Ring Cascade, with nine spiralling rings suited to standard-height stairwells and living rooms. Same adjustable drop, dimmer, and remote-control convenience in a tighter footprint.",
+    "features": [
+      "Light Mode: 3-in-1 LED — White + Warm White",
+      "Drop Range: 1000 mm to 200 mm (adjustable)",
+      "Controls: Dimmer Option, Remote Option",
+      "Ring Count: 9 rings"
+    ],
+    "specs": [
+      {
+        "label": "Light Mode",
+        "value": "3-in-1 LED — White + Warm White"
+      },
+      {
+        "label": "Drop Range",
+        "value": "1000 mm to 200 mm (adjustable)"
+      },
+      {
+        "label": "Controls",
+        "value": "Dimmer Option, Remote Option"
+      },
+      {
+        "label": "Ring Count",
+        "value": "9 rings"
+      }
+    ],
+    "tags": [
+      "chandeliers",
+      "lighting",
+      "led",
+      "led spiral chandelier"
+    ],
+    "related": [
+      "light-3",
+      "light-4",
+      "light-5",
+      "light-6"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "light-16",
+    "slug": "lantern-globe-wall-light",
+    "model": "7921",
+    "name": "Lantern Globe Wall Light",
+    "category": "Wall Lights",
+    "tagline": "LED Wall Light",
+    "price": null,
+    "mrp": null,
+    "priceUnit": "pc",
+    "priceLabel": "Get Best Price",
+    "material": "Gold",
+    "color": "Gold",
+    "image": "/Lights_Products/MODEL-7921.jpg",
+    "images": [
+      "/Lights_Products/MODEL-7921.jpg"
+    ],
+    "warranty": true,
+    "onRequest": true,
+    "featured": false,
+    "offer": null,
+    "description": "A gilded lantern cage frames a beaded crystal globe, throwing a soft starburst of light across the wall behind it. A compact, jewel-like wall light for hallways, staircases, and either side of a bed or mirror.",
+    "features": [
+      "Light Mode: 3-in-1 LED",
+      "Body Finish: Gold",
+      "Style: Lantern-cage with crystal globe base",
+      "Fixture Type: Wall Sconce"
+    ],
+    "specs": [
+      {
+        "label": "Light Mode",
+        "value": "3-in-1 LED"
+      },
+      {
+        "label": "Body Finish",
+        "value": "Gold"
+      },
+      {
+        "label": "Style",
+        "value": "Lantern-cage with crystal globe base"
+      },
+      {
+        "label": "Fixture Type",
+        "value": "Wall Sconce"
+      }
+    ],
+    "tags": [
+      "wall lights",
+      "lighting",
+      "led",
+      "led wall light"
+    ],
+    "related": [
+      "light-1",
+      "light-2",
+      "light-17",
+      "light-18"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "light-17",
+    "slug": "twist-sphere-wall-light",
+    "model": "8206",
+    "name": "Twist Sphere Wall Light",
+    "category": "Wall Lights",
+    "tagline": "LED Wall Light — 3-in-1",
+    "price": null,
+    "mrp": null,
+    "priceUnit": "pc",
+    "priceLabel": "Get Best Price",
+    "material": "Gold",
+    "color": "Gold",
+    "image": "/Lights_Products/8206.jpg",
+    "images": [
+      "/Lights_Products/8206.jpg"
+    ],
+    "warranty": true,
+    "onRequest": true,
+    "featured": false,
+    "offer": null,
+    "description": "Two textured glass spheres bookend a gold spiral that winds between them, casting a warm radial glow in both directions. A symmetrical, sculptural wall light suited to corridors and either side of a console or headboard.",
+    "features": [
+      "Light Mode: 3-in-1 LED",
+      "Body Finish: Gold",
+      "Style: Twin textured-glass spheres, spiral wrap",
+      "Fixture Type: Wall Sconce"
+    ],
+    "specs": [
+      {
+        "label": "Light Mode",
+        "value": "3-in-1 LED"
+      },
+      {
+        "label": "Body Finish",
+        "value": "Gold"
+      },
+      {
+        "label": "Style",
+        "value": "Twin textured-glass spheres, spiral wrap"
+      },
+      {
+        "label": "Fixture Type",
+        "value": "Wall Sconce"
+      }
+    ],
+    "tags": [
+      "wall lights",
+      "lighting",
+      "led",
+      "led wall light — 3-in-1"
+    ],
+    "related": [
+      "light-1",
+      "light-2",
+      "light-16",
+      "light-18"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "light-18",
+    "slug": "halo-orb-wall-light",
+    "model": "8128",
+    "name": "Halo Orb Wall Light",
+    "category": "Wall Lights",
+    "tagline": "LED Wall Light — 3-in-1, Warm White",
+    "price": null,
+    "mrp": null,
+    "priceUnit": "pc",
+    "priceLabel": "Get Best Price",
+    "material": "Gold",
+    "color": "Gold",
+    "image": "/Lights_Products/8128.jpg",
+    "images": [
+      "/Lights_Products/8128.jpg"
+    ],
+    "warranty": true,
+    "onRequest": true,
+    "featured": false,
+    "offer": null,
+    "description": "A glowing gold halo ring frames a fluted crystal orb below, layering two light sources into one compact fixture. Warm, inviting, and detailed enough to stand alone as an accent beside artwork or a bathroom mirror.",
+    "features": [
+      "Light Mode: LED, Warm White",
+      "Body Finish: Gold",
+      "Style: Ringed halo over a fluted glass orb",
+      "Fixture Type: Wall Sconce"
+    ],
+    "specs": [
+      {
+        "label": "Light Mode",
+        "value": "LED, Warm White"
+      },
+      {
+        "label": "Body Finish",
+        "value": "Gold"
+      },
+      {
+        "label": "Style",
+        "value": "Ringed halo over a fluted glass orb"
+      },
+      {
+        "label": "Fixture Type",
+        "value": "Wall Sconce"
+      }
+    ],
+    "tags": [
+      "wall lights",
+      "lighting",
+      "led",
+      "led wall light — 3-in-1, warm white"
+    ],
+    "related": [
+      "light-1",
+      "light-2",
+      "light-16",
+      "light-17"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "light-19",
+    "slug": "floral-bloom-cluster-chandelier",
+    "model": "S185/50",
+    "name": "Floral Bloom Cluster Chandelier",
+    "category": "Chandeliers",
+    "tagline": "LED Cluster Chandelier — 3-in-1",
+    "price": null,
+    "mrp": null,
+    "priceUnit": "pc",
+    "priceLabel": "Get Best Price",
+    "material": "Gold, Crystal Bubble Rods",
+    "color": "Gold",
+    "image": "/Lights_Products/S185-50.jpg",
+    "images": [
+      "/Lights_Products/S185-50.jpg"
+    ],
+    "warranty": true,
+    "onRequest": true,
+    "featured": false,
+    "offer": null,
+    "description": "Dozens of crystal bubble rods hang in loose floral-clipped clusters at staggered heights, building a dense, glittering canopy from a single round plate. A show-stopping choice for tall stairwells and grand double-height rooms.",
+    "features": [
+      "Light Mode: 3-in-1 LED",
+      "Body Finish: Gold, Crystal Bubble Rods",
+      "Style: Multi-tier floral-clip cluster drop",
+      "Fixture Type: Ceiling Chandelier"
+    ],
+    "specs": [
+      {
+        "label": "Light Mode",
+        "value": "3-in-1 LED"
+      },
+      {
+        "label": "Body Finish",
+        "value": "Gold, Crystal Bubble Rods"
+      },
+      {
+        "label": "Style",
+        "value": "Multi-tier floral-clip cluster drop"
+      },
+      {
+        "label": "Fixture Type",
+        "value": "Ceiling Chandelier"
+      }
+    ],
+    "tags": [
+      "chandeliers",
+      "lighting",
+      "led",
+      "led cluster chandelier — 3-in-1"
+    ],
+    "related": [
+      "light-3",
+      "light-4",
+      "light-5",
+      "light-6"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "chair-1",
+    "slug": "executive-mesh-chair",
+    "model": "CHR-201",
+    "name": "Executive Mesh Chair",
+    "category": "Chairs",
+    "tagline": "Ergonomic office & study chair with breathable mesh back",
+    "price": null,
+    "mrp": null,
+    "priceUnit": "pc",
+    "priceLabel": "Get Best Price",
+    "material": "Mesh & Metal Frame",
+    "image": "/chair-furniture (1).jpg",
+    "images": [
+      "/chair-furniture (1).jpg"
+    ],
+    "warranty": true,
+    "onRequest": true,
+    "featured": true,
+    "upcoming": false,
+    "offer": null,
+    "description": "Premium ergonomic chair with adjustable height, lumbar support and smooth swivel base — ideal for home office and study.",
+    "features": [
+      "Adjustable height",
+      "Breathable mesh back",
+      "360° swivel",
+      "Sturdy metal base"
+    ],
+    "specs": [
+      {
+        "label": "Feature 1",
+        "value": "Adjustable height"
+      },
+      {
+        "label": "Feature 2",
+        "value": "Breathable mesh back"
+      },
+      {
+        "label": "Feature 3",
+        "value": "360° swivel"
+      },
+      {
+        "label": "Feature 4",
+        "value": "Sturdy metal base"
+      }
+    ],
+    "tags": [
+      "chairs",
+      "enquire"
+    ],
+    "related": [
+      "chair-2"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "chair-2",
+    "slug": "premium-lounge-chair",
+    "model": "CHR-202",
+    "name": "Premium Lounge Chair",
+    "category": "Chairs",
+    "tagline": "Comfort lounge chair for living room & reception",
+    "price": null,
+    "mrp": null,
+    "priceUnit": "pc",
+    "priceLabel": "Get Best Price",
+    "material": "Fabric & Wood",
+    "image": "/chair-furniture (2).jpg",
+    "images": [
+      "/chair-furniture (2).jpg"
+    ],
+    "warranty": true,
+    "onRequest": true,
+    "featured": true,
+    "upcoming": false,
+    "offer": null,
+    "description": "Elegant lounge chair with cushioned seat and curved wooden arms — perfect for living rooms and reading corners.",
+    "features": [
+      "Plush cushioning",
+      "Wooden armrests",
+      "Compact footprint",
+      "Showroom display piece"
+    ],
+    "specs": [
+      {
+        "label": "Feature 1",
+        "value": "Plush cushioning"
+      },
+      {
+        "label": "Feature 2",
+        "value": "Wooden armrests"
+      },
+      {
+        "label": "Feature 3",
+        "value": "Compact footprint"
+      },
+      {
+        "label": "Feature 4",
+        "value": "Showroom display piece"
+      }
+    ],
+    "tags": [
+      "chairs",
+      "enquire"
+    ],
+    "related": [
+      "chair-1"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "mattress-1",
+    "slug": "orthopaedic-memory-foam-mattress",
+    "model": "MAT-401",
+    "name": "Orthopaedic Memory Foam Mattress",
+    "category": "Mattresses",
+    "tagline": "Doctor-recommended orthopaedic support",
+    "price": null,
+    "mrp": null,
+    "priceUnit": "pc",
+    "priceLabel": "Get Best Price",
+    "material": "Memory Foam",
+    "image": "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=800&q=80&auto=format&fit=crop",
+    "images": [
+      "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=800&q=80&auto=format&fit=crop"
+    ],
+    "warranty": true,
+    "onRequest": true,
+    "featured": true,
+    "upcoming": false,
+    "offer": null,
+    "description": "High-density memory foam mattress with orthopaedic support — available in king, queen and custom sizes.",
+    "features": [
+      "Orthopaedic support",
+      "Memory foam comfort",
+      "King & queen sizes",
+      "10-year warranty option"
+    ],
+    "specs": [
+      {
+        "label": "Feature 1",
+        "value": "Orthopaedic support"
+      },
+      {
+        "label": "Feature 2",
+        "value": "Memory foam comfort"
+      },
+      {
+        "label": "Feature 3",
+        "value": "King & queen sizes"
+      },
+      {
+        "label": "Feature 4",
+        "value": "10-year warranty option"
+      }
+    ],
+    "tags": [
+      "mattresses",
+      "enquire"
+    ],
+    "related": [
+      "mattress-2"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "mattress-2",
+    "slug": "pocket-spring-mattress",
+    "model": "MAT-402",
+    "name": "Pocket Spring Mattress",
+    "category": "Mattresses",
+    "tagline": "Individual pocket springs for zero partner disturbance",
+    "price": null,
+    "mrp": null,
+    "priceUnit": "pc",
+    "priceLabel": "Get Best Price",
+    "material": "Pocket Spring",
+    "image": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=800&q=80&auto=format&fit=crop",
+    "images": [
+      "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=800&q=80&auto=format&fit=crop"
+    ],
+    "warranty": true,
+    "onRequest": true,
+    "featured": true,
+    "upcoming": false,
+    "offer": null,
+    "description": "Premium pocket spring mattress with quilted top layer — ideal for couples who want independent support.",
+    "features": [
+      "Pocket spring core",
+      "Quilted comfort layer",
+      "Anti-microbial fabric",
+      "Custom sizes available"
+    ],
+    "specs": [
+      {
+        "label": "Feature 1",
+        "value": "Pocket spring core"
+      },
+      {
+        "label": "Feature 2",
+        "value": "Quilted comfort layer"
+      },
+      {
+        "label": "Feature 3",
+        "value": "Anti-microbial fabric"
+      },
+      {
+        "label": "Feature 4",
+        "value": "Custom sizes available"
+      }
+    ],
+    "tags": [
+      "mattresses",
+      "enquire"
+    ],
+    "related": [
+      "mattress-1"
+    ],
+    "source": "catalog"
+  },
+  {
+    "id": "upcoming-1",
+    "slug": "designer-wash-basin",
+    "model": "BF-501",
+    "name": "Designer Wash Basin",
+    "category": "Bathroom Fittings",
+    "tagline": "Counter-top ceramic wash basin",
+    "price": null,
+    "mrp": null,
+    "priceUnit": "pc",
+    "priceLabel": "Get Best Price",
+    "material": "Ceramic",
+    "image": "https://images.unsplash.com/photo-1620626011761-996317b8d101?w=800&q=80&auto=format&fit=crop",
+    "images": [
+      "https://images.unsplash.com/photo-1620626011761-996317b8d101?w=800&q=80&auto=format&fit=crop"
+    ],
+    "warranty": true,
+    "onRequest": true,
+    "featured": false,
+    "upcoming": true,
+    "offer": "Coming Soon",
+    "description": "Elegant counter-top wash basin — pairs with premium taps and fittings.",
+    "features": [
+      "Ceramic construction",
+      "Counter-top mount",
+      "Easy-clean glaze",
+      "Multiple colours"
+    ],
+    "specs": [
+      {
+        "label": "Feature 1",
+        "value": "Ceramic construction"
+      },
+      {
+        "label": "Feature 2",
+        "value": "Counter-top mount"
+      },
+      {
+        "label": "Feature 3",
+        "value": "Easy-clean glaze"
+      },
+      {
+        "label": "Feature 4",
+        "value": "Multiple colours"
+      }
+    ],
+    "tags": [
+      "bathroom fittings",
+      "upcoming"
+    ],
+    "related": [
+      "upcoming-2",
+      "upcoming-3",
+      "upcoming-4",
+      "upcoming-5"
+    ],
+    "source": "upcoming"
+  },
+  {
+    "id": "upcoming-2",
+    "slug": "chrome-basin-mixer-tap",
+    "model": "BF-502",
+    "name": "Chrome Basin Mixer Tap",
+    "category": "Bathroom Fittings",
+    "tagline": "Single-lever chrome mixer tap",
+    "price": null,
+    "mrp": null,
+    "priceUnit": "pc",
+    "priceLabel": "Get Best Price",
+    "material": "Chrome Brass",
+    "image": "https://images.unsplash.com/photo-1607472586893-edb57bdc0e39?w=800&q=80&auto=format&fit=crop",
+    "images": [
+      "https://images.unsplash.com/photo-1607472586893-edb57bdc0e39?w=800&q=80&auto=format&fit=crop"
+    ],
+    "warranty": true,
+    "onRequest": true,
+    "featured": false,
+    "upcoming": true,
+    "offer": "Coming Soon",
+    "description": "Premium chrome basin mixer with ceramic disc cartridge and smooth single-lever control.",
+    "features": [
+      "Chrome finish",
+      "Ceramic disc",
+      "Single-lever",
+      "Anti-drip"
+    ],
+    "specs": [
+      {
+        "label": "Feature 1",
+        "value": "Chrome finish"
+      },
+      {
+        "label": "Feature 2",
+        "value": "Ceramic disc"
+      },
+      {
+        "label": "Feature 3",
+        "value": "Single-lever"
+      },
+      {
+        "label": "Feature 4",
+        "value": "Anti-drip"
+      }
+    ],
+    "tags": [
+      "bathroom fittings",
+      "upcoming"
+    ],
+    "related": [
+      "upcoming-1",
+      "upcoming-3",
+      "upcoming-4",
+      "upcoming-5"
+    ],
+    "source": "upcoming"
+  },
+  {
+    "id": "upcoming-3",
+    "slug": "wall-mixer-tap",
+    "model": "BF-503",
+    "name": "Wall Mixer Tap",
+    "category": "Bathroom Fittings",
+    "tagline": "Wall-mounted hot & cold mixer",
+    "price": null,
+    "mrp": null,
+    "priceUnit": "pc",
+    "priceLabel": "Get Best Price",
+    "material": "Chrome Brass",
+    "image": "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=800&q=80&auto=format&fit=crop",
+    "images": [
+      "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=800&q=80&auto=format&fit=crop"
+    ],
+    "warranty": true,
+    "onRequest": true,
+    "featured": false,
+    "upcoming": true,
+    "offer": "Coming Soon",
+    "description": "Wall-mounted mixer tap for bathroom basins — compact, modern Indian bathroom fit.",
+    "features": [
+      "Wall mount",
+      "Hot & cold",
+      "Chrome body",
+      "Easy install"
+    ],
+    "specs": [
+      {
+        "label": "Feature 1",
+        "value": "Wall mount"
+      },
+      {
+        "label": "Feature 2",
+        "value": "Hot & cold"
+      },
+      {
+        "label": "Feature 3",
+        "value": "Chrome body"
+      },
+      {
+        "label": "Feature 4",
+        "value": "Easy install"
+      }
+    ],
+    "tags": [
+      "bathroom fittings",
+      "upcoming"
+    ],
+    "related": [
+      "upcoming-1",
+      "upcoming-2",
+      "upcoming-4",
+      "upcoming-5"
+    ],
+    "source": "upcoming"
+  },
+  {
+    "id": "upcoming-4",
+    "slug": "pillar-cock-tap",
+    "model": "BF-504",
+    "name": "Pillar Cock Tap",
+    "category": "Bathroom Fittings",
+    "tagline": "Classic pillar cock for wash basins",
+    "price": null,
+    "mrp": null,
+    "priceUnit": "pc",
+    "priceLabel": "Get Best Price",
+    "material": "Chrome Brass",
+    "image": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=800&q=80&auto=format&fit=crop",
+    "images": [
+      "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=800&q=80&auto=format&fit=crop"
+    ],
+    "warranty": true,
+    "onRequest": true,
+    "featured": false,
+    "upcoming": true,
+    "offer": "Coming Soon",
+    "description": "Traditional pillar cock tap with cross-head handles — durable brass body for everyday use.",
+    "features": [
+      "Pillar mount",
+      "Cross handles",
+      "Brass body",
+      "Long-lasting"
+    ],
+    "specs": [
+      {
+        "label": "Feature 1",
+        "value": "Pillar mount"
+      },
+      {
+        "label": "Feature 2",
+        "value": "Cross handles"
+      },
+      {
+        "label": "Feature 3",
+        "value": "Brass body"
+      },
+      {
+        "label": "Feature 4",
+        "value": "Long-lasting"
+      }
+    ],
+    "tags": [
+      "bathroom fittings",
+      "upcoming"
+    ],
+    "related": [
+      "upcoming-1",
+      "upcoming-2",
+      "upcoming-3",
+      "upcoming-5"
+    ],
+    "source": "upcoming"
+  },
+  {
+    "id": "upcoming-5",
+    "slug": "health-faucet-jet-spray",
+    "model": "BF-505",
+    "name": "Health Faucet Jet Spray",
+    "category": "Bathroom Fittings",
+    "tagline": "Handheld health faucet with hose",
+    "price": null,
+    "mrp": null,
+    "priceUnit": "pc",
+    "priceLabel": "Get Best Price",
+    "material": "Chrome ABS",
+    "image": "https://images.unsplash.com/photo-1607472586893-edb57bdc0e39?w=800&q=80&auto=format&fit=crop",
+    "images": [
+      "https://images.unsplash.com/photo-1607472586893-edb57bdc0e39?w=800&q=80&auto=format&fit=crop"
+    ],
+    "warranty": true,
+    "onRequest": true,
+    "featured": false,
+    "upcoming": true,
+    "offer": "Coming Soon",
+    "description": "Wall-mounted health faucet with flexible hose — essential for modern Indian bathrooms.",
+    "features": [
+      "Flexible hose",
+      "Wall bracket",
+      "Chrome finish",
+      "Easy grip"
+    ],
+    "specs": [
+      {
+        "label": "Feature 1",
+        "value": "Flexible hose"
+      },
+      {
+        "label": "Feature 2",
+        "value": "Wall bracket"
+      },
+      {
+        "label": "Feature 3",
+        "value": "Chrome finish"
+      },
+      {
+        "label": "Feature 4",
+        "value": "Easy grip"
+      }
+    ],
+    "tags": [
+      "bathroom fittings",
+      "upcoming"
+    ],
+    "related": [
+      "upcoming-1",
+      "upcoming-2",
+      "upcoming-3",
+      "upcoming-4"
+    ],
+    "source": "upcoming"
+  },
+  {
+    "id": "upcoming-6",
+    "slug": "concealed-shower-mixer",
+    "model": "BF-506",
+    "name": "Concealed Shower Mixer",
+    "category": "Bathroom Fittings",
+    "tagline": "Concealed diverter with overhead shower",
+    "price": null,
+    "mrp": null,
+    "priceUnit": "pc",
+    "priceLabel": "Get Best Price",
+    "material": "Chrome Brass",
+    "image": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=800&q=80&auto=format&fit=crop",
+    "images": [
+      "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=800&q=80&auto=format&fit=crop"
+    ],
+    "warranty": true,
+    "onRequest": true,
+    "featured": false,
+    "upcoming": true,
+    "offer": "Coming Soon",
+    "description": "Concealed shower mixer with diverter — clean wall look with overhead rain shower option.",
+    "features": [
+      "Concealed body",
+      "Diverter",
+      "Rain shower ready",
+      "Premium chrome"
+    ],
+    "specs": [
+      {
+        "label": "Feature 1",
+        "value": "Concealed body"
+      },
+      {
+        "label": "Feature 2",
+        "value": "Diverter"
+      },
+      {
+        "label": "Feature 3",
+        "value": "Rain shower ready"
+      },
+      {
+        "label": "Feature 4",
+        "value": "Premium chrome"
+      }
+    ],
+    "tags": [
+      "bathroom fittings",
+      "upcoming"
+    ],
+    "related": [
+      "upcoming-1",
+      "upcoming-2",
+      "upcoming-3",
+      "upcoming-4"
+    ],
+    "source": "upcoming"
+  },
+  {
+    "id": "upcoming-7",
+    "slug": "sensor-automatic-tap",
+    "model": "BF-507",
+    "name": "Sensor Automatic Tap",
+    "category": "Bathroom Fittings",
+    "tagline": "Touchless infrared sensor tap",
+    "price": null,
+    "mrp": null,
+    "priceUnit": "pc",
+    "priceLabel": "Get Best Price",
+    "material": "Chrome & Sensor Module",
+    "image": "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=800&q=80&auto=format&fit=crop",
+    "images": [
+      "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=800&q=80&auto=format&fit=crop"
+    ],
+    "warranty": true,
+    "onRequest": true,
+    "featured": false,
+    "upcoming": true,
+    "offer": "Coming Soon",
+    "description": "Automatic sensor tap for basins — hygienic, water-saving option for homes and offices.",
+    "features": [
+      "Infrared sensor",
+      "Water saving",
+      "Battery/AC option",
+      "Chrome spout"
+    ],
+    "specs": [
+      {
+        "label": "Feature 1",
+        "value": "Infrared sensor"
+      },
+      {
+        "label": "Feature 2",
+        "value": "Water saving"
+      },
+      {
+        "label": "Feature 3",
+        "value": "Battery/AC option"
+      },
+      {
+        "label": "Feature 4",
+        "value": "Chrome spout"
+      }
+    ],
+    "tags": [
+      "bathroom fittings",
+      "upcoming"
+    ],
+    "related": [
+      "upcoming-1",
+      "upcoming-2",
+      "upcoming-3",
+      "upcoming-4"
+    ],
+    "source": "upcoming"
+  },
+  {
+    "id": "upcoming-8",
+    "slug": "rain-shower-head-set",
+    "model": "BF-508",
+    "name": "Rain Shower Head Set",
+    "category": "Bathroom Fittings",
+    "tagline": "Overhead rain shower with hand shower",
+    "price": null,
+    "mrp": null,
+    "priceUnit": "pc",
+    "priceLabel": "Get Best Price",
+    "material": "Stainless Steel & Chrome",
+    "image": "https://images.unsplash.com/photo-1620626011761-996317b8d101?w=800&q=80&auto=format&fit=crop",
+    "images": [
+      "https://images.unsplash.com/photo-1620626011761-996317b8d101?w=800&q=80&auto=format&fit=crop"
+    ],
+    "warranty": true,
+    "onRequest": true,
+    "featured": false,
+    "upcoming": true,
+    "offer": "Coming Soon",
+    "description": "Luxury rain shower set with adjustable hand shower and anti-clog nozzles.",
+    "features": [
+      "Rain head",
+      "Hand shower",
+      "Anti-clog",
+      "Chrome arm"
+    ],
+    "specs": [
+      {
+        "label": "Feature 1",
+        "value": "Rain head"
+      },
+      {
+        "label": "Feature 2",
+        "value": "Hand shower"
+      },
+      {
+        "label": "Feature 3",
+        "value": "Anti-clog"
+      },
+      {
+        "label": "Feature 4",
+        "value": "Chrome arm"
+      }
+    ],
+    "tags": [
+      "bathroom fittings",
+      "upcoming"
+    ],
+    "related": [
+      "upcoming-1",
+      "upcoming-2",
+      "upcoming-3",
+      "upcoming-4"
+    ],
+    "source": "upcoming"
+  }
+]

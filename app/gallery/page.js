@@ -1,10 +1,9 @@
-import Image from "next/image";
 import Link from "next/link";
+import Image from "next/image";
 import PageBanner from "@/components/PageBanner";
 import SectionHeading from "@/components/SectionHeading";
 import { business } from "@/data/business";
-import { images } from "@/data/content";
-import { categories } from "@/data/categories";
+import { galleryImages } from "@/data/gallery";
 import { getFeaturedProducts } from "@/data/products";
 import { buildMetadata } from "@/lib/seo";
 
@@ -16,33 +15,13 @@ export const metadata = buildMetadata({
 });
 
 export default function GalleryPage() {
-  const featured = getFeaturedProducts();
-  const galleryItems = [
-    ...images.showroom.map((src, i) => ({
-      id: `showroom-${i}`,
-      src,
-      alt: `Metro Furniture showroom display ${i + 1}`,
-      href: "/contact",
-    })),
-    ...featured.slice(0, 6).map((p) => ({
-      id: p.id,
-      src: p.image,
-      alt: p.name,
-      href: `/product/${p.slug}`,
-    })),
-    ...categories.slice(0, 3).map((c) => ({
-      id: `cat-${c.id}`,
-      src: c.image,
-      alt: c.name,
-      href: `/shop/${c.slug}`,
-    })),
-  ];
+  const featured = getFeaturedProducts().filter((p) => !p.upcoming);
 
   return (
     <>
       <PageBanner
         title="Gallery"
-        description="A glimpse of our premium showroom on Salem Main Road."
+        description="Real photos from our Salem Main Road showroom."
         breadcrumbs={[
           { label: "Home", href: "/" },
           { label: "Gallery" },
@@ -62,16 +41,15 @@ export default function GalleryPage() {
         </div>
 
         <SectionHeading
-          title="Showroom & Collections"
-          description="Premium furniture displays from our Dharmapuri showroom."
+          title="Showroom Gallery"
+          description="Photos from our Dharmapuri showroom — sofas, corners & living room displays."
         />
 
         <div className="columns-1 gap-4 sm:columns-2 lg:columns-3">
-          {galleryItems.map((item) => (
-            <Link
-              key={item.id}
-              href={item.href}
-              className="group mb-4 block break-inside-avoid overflow-hidden rounded-3xl glass-card luxury-shadow-hover"
+          {galleryImages.map((item, i) => (
+            <div
+              key={item.src}
+              className="group mb-4 break-inside-avoid overflow-hidden rounded-3xl glass-card luxury-shadow-hover"
             >
               <div className="relative aspect-[4/3]">
                 <Image
@@ -80,13 +58,43 @@ export default function GalleryPage() {
                   fill
                   sizes="(max-width: 768px) 100vw, 33vw"
                   className="object-cover transition duration-700 group-hover:scale-105"
-                  loading="lazy"
+                  loading={i < 3 ? "eager" : "lazy"}
                 />
               </div>
-              <p className="px-4 py-3 text-sm font-medium">{item.alt}</p>
-            </Link>
+              <p className="px-4 py-3 text-sm font-medium text-body">{item.alt}</p>
+            </div>
           ))}
         </div>
+
+        {featured.length ? (
+          <div className="mt-16">
+            <SectionHeading
+              title="Featured Products"
+              description="Catalogue items from our showroom collection."
+            />
+            <div className="columns-1 gap-4 sm:columns-2 lg:columns-3">
+              {featured.slice(0, 6).map((p) => (
+                <Link
+                  key={p.id}
+                  href={`/product/${p.slug}`}
+                  className="group mb-4 block break-inside-avoid overflow-hidden rounded-3xl glass-card luxury-shadow-hover"
+                >
+                  <div className="relative aspect-[4/3]">
+                    <Image
+                      src={p.image}
+                      alt={p.name}
+                      fill
+                      sizes="(max-width: 768px) 100vw, 33vw"
+                      className="object-cover transition duration-700 group-hover:scale-105"
+                      loading="lazy"
+                    />
+                  </div>
+                  <p className="px-4 py-3 text-sm font-semibold">{p.name}</p>
+                </Link>
+              ))}
+            </div>
+          </div>
+        ) : null}
       </section>
     </>
   );

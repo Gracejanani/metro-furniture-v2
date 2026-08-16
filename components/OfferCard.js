@@ -12,7 +12,7 @@ export default function OfferCard({
   return (
     <article className="flex h-full flex-col rounded-2xl border border-border bg-surface p-5 shadow-sm transition hover:scale-[1.03] hover:shadow-md">
       {badge ? (
-        <span className="mb-3 w-fit rounded-full bg-terracotta/15 px-3 py-1 text-xs font-semibold text-terracotta">
+        <span className="mb-3 w-fit rounded-full bg-accent/15 px-3 py-1 text-xs font-semibold text-accent-dark">
           {badge}
         </span>
       ) : null}
@@ -33,7 +33,7 @@ export default function OfferCard({
       </div>
       <Link
         href={href}
-        className="mt-5 inline-flex items-center justify-center rounded-xl border-2 border-amber px-4 py-2 text-sm font-semibold text-foreground transition hover:bg-amber hover:text-white"
+        className="mt-5 inline-flex items-center justify-center rounded-xl border-2 border-accent px-4 py-2 text-sm font-semibold text-foreground transition hover:bg-accent hover:text-white"
       >
         View Offer
       </Link>

@@ -10,10 +10,10 @@ import { products, searchProducts } from "@/data/products";
 import { buildMetadata } from "@/lib/seo";
 
 export const metadata = buildMetadata({
-  title: "Shop Premium Furniture",
-  description: `Browse sofas, beds, dining sets, wardrobes, mattresses and more at ${business.name}, Dharmapuri.`,
+  title: "Shop Sofas & Designer Lighting",
+  description: `Browse corner sofas, sofa sets and designer lighting at ${business.name}, Dharmapuri.`,
   path: "/shop",
-  keywords: ["Shop", "Catalog", "Sofa", "Bed", "Dining", "Wardrobe"],
+  keywords: ["Shop", "Sofa", "Corner Sofa", "Chandelier", "Wall Light", "Dharmapuri"],
 });
 
 export default async function ShopPage({ searchParams }) {
@@ -41,7 +41,7 @@ export default async function ShopPage({ searchParams }) {
     <>
       <PageBanner
         title="Shop"
-        description="Premium furniture with transparent pricing — filter by category and material."
+        description="Premium sofas, corner sets & designer lighting — filter by category."
         breadcrumbs={[
           { label: "Home", href: "/" },
           { label: "Shop" },
