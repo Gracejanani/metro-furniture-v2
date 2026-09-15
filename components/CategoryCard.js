@@ -3,6 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
+import { ArrowRight } from "lucide-react";
 import AnimateIn from "@/components/AnimateIn";
 
 export default function CategoryCard({ category }) {
@@ -29,8 +30,9 @@ export default function CategoryCard({ category }) {
           >
             <h3 className="font-heading text-xl font-bold">{category.name}</h3>
             <p className="mt-1 line-clamp-2 text-sm text-white/80">{category.description}</p>
-            <span className="mt-3 inline-flex text-xs font-semibold uppercase tracking-wider text-accent">
-              Explore →
+            <span className="mt-3 inline-flex items-center gap-1.5 text-xs font-semibold uppercase tracking-wider text-accent">
+              Explore
+              <ArrowRight className="h-3.5 w-3.5" aria-hidden />
             </span>
           </motion.div>
         </div>

@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { motion } from "framer-motion";
-import { MessageCircle, ShoppingBag } from "lucide-react";
+import { Check, MessageCircle, ShoppingBag } from "lucide-react";
 import CallButton from "@/components/CallButton";
 import RoomPreview from "@/components/RoomPreview";
 import PriceTag, {
@@ -241,7 +241,7 @@ export default function ProductBuyBox({ product }) {
               {product.features.map((feature) => (
                 <li key={feature} className="flex items-start gap-3 text-sm">
                   <span className="mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-accent/15 text-accent">
-                    <CheckIcon />
+                    <Check className="h-3 w-3" strokeWidth={3} aria-hidden />
                   </span>
                   {feature}
                 </li>
@@ -260,17 +260,5 @@ export default function ProductBuyBox({ product }) {
         </div>
       </div>
     </motion.div>
-  );
-}
-
-function CheckIcon() {
-  return (
-    <svg viewBox="0 0 20 20" className="h-3 w-3" fill="currentColor" aria-hidden="true">
-      <path
-        fillRule="evenodd"
-        d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
-        clipRule="evenodd"
-      />
-    </svg>
   );
 }

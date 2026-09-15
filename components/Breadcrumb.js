@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { ChevronRight } from "lucide-react";
 
 export default function Breadcrumb({ items = [] }) {
   if (!items.length) return null;
@@ -12,7 +13,7 @@ export default function Breadcrumb({ items = [] }) {
             <li key={item.href || item.label} className="flex items-center gap-1.5">
               {index > 0 ? (
                 <span className="text-body/40" aria-hidden="true">
-                  <ChevronIcon />
+                  <ChevronRight className="h-3.5 w-3.5" aria-hidden />
                 </span>
               ) : null}
               {isLast || !item.href ? (
@@ -35,17 +36,5 @@ export default function Breadcrumb({ items = [] }) {
         })}
       </ol>
     </nav>
-  );
-}
-
-function ChevronIcon() {
-  return (
-    <svg viewBox="0 0 20 20" className="h-3.5 w-3.5" fill="currentColor" aria-hidden="true">
-      <path
-        fillRule="evenodd"
-        d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z"
-        clipRule="evenodd"
-      />
-    </svg>
   );
 }

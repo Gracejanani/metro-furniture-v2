@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import { Star } from "lucide-react";
 import AnimateIn from "@/components/AnimateIn";
 
 export default function Testimonials({ items }) {
@@ -15,7 +16,7 @@ export default function Testimonials({ items }) {
           >
             <div className="mb-4 flex gap-1 text-accent" aria-label={`${item.rating} out of 5 stars`}>
               {Array.from({ length: item.rating }).map((_, index) => (
-                <StarIcon key={index} />
+                <Star key={index} className="h-4 w-4 fill-current" aria-hidden />
               ))}
             </div>
             <blockquote className="flex-1 text-sm leading-relaxed text-body">
@@ -29,13 +30,5 @@ export default function Testimonials({ items }) {
         </AnimateIn>
       ))}
     </ul>
-  );
-}
-
-function StarIcon() {
-  return (
-    <svg viewBox="0 0 20 20" className="h-4 w-4 fill-current" aria-hidden="true">
-      <path d="M10 1.5l2.47 5.01 5.53.8-4 3.9.94 5.5L10 14.9l-4.94 2.6.94-5.5-4-3.9 5.53-.8L10 1.5z" />
-    </svg>
   );
 }

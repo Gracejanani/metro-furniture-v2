@@ -1,10 +1,4 @@
-import { Playfair_Display, Inter, Noto_Sans_Tamil } from "next/font/google";
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
-import FloatingContact from "@/components/FloatingContact";
-import InitialLoader from "@/components/InitialLoader";
-import AnimatedBackground from "@/components/AnimatedBackground";
-import ChatAssistant from "@/components/ChatAssistant";
+import { Playfair_Display, Inter, Noto_Sans_Tamil, Manrope } from "next/font/google";
 import { business, seoKeywords, siteUrl } from "@/data/business";
 import "./globals.css";
 
@@ -17,6 +11,12 @@ const playfair = Playfair_Display({
 const inter = Inter({
   subsets: ["latin"],
   variable: "--font-body",
+  display: "swap",
+});
+
+const manrope = Manrope({
+  subsets: ["latin"],
+  variable: "--font-pos",
   display: "swap",
 });
 
@@ -65,17 +65,9 @@ export default function RootLayout({ children }) {
   return (
     <html
       lang="en"
-      className={`${playfair.variable} ${inter.variable} ${notoTamil.variable} h-full`}
+      className={`${playfair.variable} ${inter.variable} ${notoTamil.variable} ${manrope.variable} h-full`}
     >
-      <body className="relative flex min-h-full flex-col bg-transparent font-sans text-foreground antialiased">
-        <AnimatedBackground />
-        <InitialLoader />
-        <Header />
-        <main className="flex-1">{children}</main>
-        <Footer />
-        <FloatingContact />
-        <ChatAssistant />
-      </body>
+      <body className="min-h-full antialiased">{children}</body>
     </html>
   );
 }

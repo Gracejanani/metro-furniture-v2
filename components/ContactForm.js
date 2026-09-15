@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { Send } from "lucide-react";
 import WhatsAppButton from "@/components/WhatsAppButton";
 import { business } from "@/data/business";
 
@@ -102,8 +103,9 @@ export default function ContactForm() {
       </div>
       <button
         type="submit"
-        className="w-full rounded-2xl bg-accent px-5 py-3 text-sm font-semibold text-white transition hover:bg-accent-dark"
+        className="inline-flex w-full items-center justify-center gap-2 rounded-2xl bg-accent px-5 py-3 text-sm font-semibold text-white transition hover:bg-accent-dark"
       >
+        <Send className="h-4 w-4" aria-hidden />
         Submit Enquiry
       </button>
     </form>

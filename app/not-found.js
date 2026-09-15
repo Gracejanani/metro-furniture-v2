@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { Home, Store } from "lucide-react";
 import CallButton from "@/components/CallButton";
 import WhatsAppButton from "@/components/WhatsAppButton";
 
@@ -21,14 +22,16 @@ export default function NotFound() {
       <div className="mt-8 flex flex-wrap justify-center gap-3">
         <Link
           href="/"
-          className="inline-flex rounded-2xl bg-accent px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-accent-dark"
+          className="inline-flex items-center gap-2 rounded-2xl bg-accent px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-accent-dark"
         >
+          <Home className="h-4 w-4" aria-hidden />
           Go Home
         </Link>
         <Link
           href="/shop"
-          className="inline-flex rounded-2xl border border-border px-5 py-2.5 text-sm font-semibold transition hover:border-accent hover:text-accent"
+          className="inline-flex items-center gap-2 rounded-2xl border border-border px-5 py-2.5 text-sm font-semibold transition hover:border-accent hover:text-accent"
         >
+          <Store className="h-4 w-4" aria-hidden />
           Browse Shop
         </Link>
         <CallButton />

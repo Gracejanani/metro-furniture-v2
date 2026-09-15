@@ -9,22 +9,33 @@
     "start": "next start",
     "lint": "eslint",
     "build:catalog": "node scripts/build-catalog.mjs",
-    "scrape:justdial": "node scripts/capture-wap.mjs && node scripts/extract-catalogue.mjs && node scripts/build-products.mjs && node scripts/fix-images.mjs"
+    "scrape:justdial": "node scripts/capture-wap.mjs && node scripts/extract-catalogue.mjs && node scripts/build-products.mjs && node scripts/fix-images.mjs",
+    "fix:caniuse": "npx --yes update-browserslist-db@latest && npm install caniuse-lite@latest browserslist@latest --no-save"
+  },
+  "overrides": {
+    "caniuse-lite": "^1.0.30001810"
   },
   "dependencies": {
+    "@supabase/ssr": "^0.12.7",
+    "@supabase/supabase-js": "^2.109.0",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "embla-carousel-autoplay": "^8.6.0",
     "embla-carousel-react": "^8.6.0",
     "framer-motion": "^12.43.0",
+    "html2pdf.js": "^0.10.3",
+    "html5-qrcode": "^2.3.8",
     "lucide-react": "^0.542.0",
     "next": "16.2.10",
+    "qrcode": "^1.5.4",
     "react": "19.2.4",
     "react-dom": "19.2.4",
     "tailwind-merge": "^3.6.0"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
+    "browserslist": "^4.24.4",
+    "caniuse-lite": "^1.0.30001810",
     "eslint": "^9",
     "eslint-config-next": "16.2.10",
     "puppeteer": "^24.43.1",

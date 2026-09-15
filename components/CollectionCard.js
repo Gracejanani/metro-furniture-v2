@@ -3,6 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
+import { ArrowRight } from "lucide-react";
 import AnimateIn from "@/components/AnimateIn";
 
 export default function CollectionCard({ collection }) {
@@ -28,8 +29,9 @@ export default function CollectionCard({ collection }) {
           >
             <h3 className="font-heading text-2xl font-bold text-white">{collection.name}</h3>
             <p className="mt-2 text-sm text-white/80">{collection.description}</p>
-            <span className="mt-4 inline-flex items-center gap-1 text-xs font-semibold uppercase tracking-wider text-accent">
-              Shop Collection →
+            <span className="mt-4 inline-flex items-center gap-1.5 text-xs font-semibold uppercase tracking-wider text-accent">
+              Shop Collection
+              <ArrowRight className="h-3.5 w-3.5" aria-hidden />
             </span>
           </motion.div>
         </div>

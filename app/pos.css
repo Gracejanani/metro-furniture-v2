@@ -1,0 +1,48 @@
+.pos-shell input,
+.pos-shell select,
+.pos-shell button {
+  font-family: inherit;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+@media print {
+  .pos-shell aside,
+  .pos-shell nav,
+  .no-print {
+    display: none !important;
+  }
+  body {
+    background: white !important;
+  }
+  .invoice-a4 {
+    box-shadow: none !important;
+    max-width: 100% !important;
+  }
+  .invoice-a4 * {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+  .price-tags-print-area {
+    padding: 0;
+  }
+  .price-tag-pair {
+    break-inside: avoid;
+    page-break-inside: avoid;
+    margin-bottom: 12mm;
+    justify-content: center;
+  }
+  .price-tag-card {
+    box-shadow: none !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+    width: 320px !important;
+    min-height: 532px !important;
+  }
+}

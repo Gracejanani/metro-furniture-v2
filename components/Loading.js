@@ -1,3 +1,5 @@
+import { Loader2 } from "lucide-react";
+
 export default function Loading({ label = "Loading..." }) {
   return (
     <div
@@ -5,7 +7,7 @@ export default function Loading({ label = "Loading..." }) {
       role="status"
       aria-live="polite"
     >
-      <div className="h-10 w-10 animate-pulse rounded-full border-4 border-border border-t-primary" />
+      <Loader2 className="h-10 w-10 animate-spin text-primary" aria-hidden />
       <p className="text-sm text-body">{label}</p>
     </div>
   );

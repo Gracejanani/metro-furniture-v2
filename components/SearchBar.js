@@ -2,6 +2,7 @@
 
 import { useRouter, useSearchParams } from "next/navigation";
 import { useState } from "react";
+import { Search } from "lucide-react";
 
 export default function SearchBar({
   placeholder = "Search sofas, beds, tables…",
@@ -30,7 +31,7 @@ export default function SearchBar({
       </label>
       <div className="group flex items-center overflow-hidden rounded-2xl border border-border/80 bg-surface shadow-sm transition duration-200 focus-within:border-accent/40 focus-within:shadow-md focus-within:ring-4 focus-within:ring-accent/10">
         <span className="pl-4 text-body/50" aria-hidden="true">
-          <SearchIcon />
+          <Search className="h-5 w-5" aria-hidden />
         </span>
         <input
           id="product-search"
@@ -48,14 +49,5 @@ export default function SearchBar({
         </button>
       </div>
     </form>
-  );
-}
-
-function SearchIcon() {
-  return (
-    <svg viewBox="0 0 24 24" className="h-5 w-5" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
-      <circle cx="11" cy="11" r="7" />
-      <path d="M20 20l-3.5-3.5" strokeLinecap="round" />
-    </svg>
   );
 }

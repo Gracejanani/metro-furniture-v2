@@ -7,6 +7,11 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: "https",
+        hostname: "*.supabase.co",
+        pathname: "/storage/v1/object/public/**",
+      },
+      {
+        protocol: "https",
         hostname: "content.jdmagicbox.com",
       },
       {
@@ -25,8 +30,6 @@ const nextConfig = {
   },
   async redirects() {
     return [
-      { source: "/products", destination: "/shop", permanent: true },
-      { source: "/products/:slug", destination: "/product/:slug", permanent: true },
       { source: "/furniture", destination: "/shop", permanent: true },
       { source: "/offers", destination: "/shop", permanent: true },
       { source: "/custom-design", destination: "/contact", permanent: true },

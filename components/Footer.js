@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { Instagram, Mail, MapPin, Phone } from "lucide-react";
 import { branches, business, navLinks } from "@/data/business";
 import { brands } from "@/data/brands";
 import { formatPhone, telHref } from "@/lib/format";
@@ -26,8 +27,9 @@ export default function Footer() {
               href={business.social.instagram}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-block text-sm text-white/75 underline-offset-2 hover:text-accent hover:underline"
+              className="inline-flex items-center gap-2 text-sm text-white/75 underline-offset-2 hover:text-accent hover:underline"
             >
+              <Instagram className="h-4 w-4 shrink-0" aria-hidden />
               @metrofurnituredpi
             </Link>
           </div>
@@ -59,8 +61,9 @@ export default function Footer() {
                 <li key={phone}>
                   <Link
                     href={telHref(phone)}
-                    className="text-sm font-medium text-white/90 transition hover:text-accent"
+                    className="inline-flex items-center gap-2 text-sm font-medium text-white/90 transition hover:text-accent"
                   >
+                    <Phone className="h-4 w-4 shrink-0 opacity-80" aria-hidden />
                     +91 {formatPhone(phone)}
                   </Link>
                 </li>
@@ -68,8 +71,9 @@ export default function Footer() {
               <li>
                 <Link
                   href={`mailto:${business.email}`}
-                  className="text-sm text-white/75 transition hover:text-accent"
+                  className="inline-flex items-center gap-2 text-sm text-white/75 transition hover:text-accent"
                 >
+                  <Mail className="h-4 w-4 shrink-0 opacity-80" aria-hidden />
                   {business.email}
                 </Link>
               </li>
@@ -80,7 +84,8 @@ export default function Footer() {
           <div>
             {branches.map((branch) => (
               <div key={branch.id}>
-                <h3 className="mb-2 text-sm font-semibold text-accent">
+                <h3 className="mb-2 inline-flex items-center gap-2 text-sm font-semibold text-accent">
+                  <MapPin className="h-4 w-4" aria-hidden />
                   Showroom
                 </h3>
                 <address className="not-italic text-sm leading-relaxed text-white/75">
