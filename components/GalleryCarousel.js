@@ -23,7 +23,7 @@ export default function GalleryCarousel({ images }) {
                 key={`gallery-${i}`}
                 className="relative min-w-0 flex-[0_0_85%] sm:flex-[0_0_45%] lg:flex-[0_0_32%]"
               >
-                <div className="relative aspect-[4/3] overflow-hidden rounded-3xl glass-card">
+                <div className="glass-card glass-photo-frame relative aspect-[4/3] overflow-hidden rounded-3xl">
                   <Image
                     src={src}
                     alt={`Metro Furniture showroom ${i + 1}`}

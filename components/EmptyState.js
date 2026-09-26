@@ -8,8 +8,8 @@ export default function EmptyState({
   actionLabel = "Browse Shop",
 }) {
   return (
-    <div className="rounded-3xl border border-dashed border-border bg-surface/80 px-6 py-20 text-center shadow-sm">
-      <div className="mx-auto mb-5 flex h-14 w-14 items-center justify-center rounded-2xl bg-accent/10 text-accent">
+    <div className="glass-card rounded-3xl px-6 py-20 text-center">
+      <div className="glass-icon mx-auto mb-5 flex h-14 w-14 items-center justify-center rounded-2xl text-accent-dark">
         <PackageOpen className="h-7 w-7" strokeWidth={1.5} aria-hidden />
       </div>
       <h3 className="font-heading text-xl font-semibold text-foreground">

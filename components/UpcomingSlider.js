@@ -37,7 +37,7 @@ export default function UpcomingSlider({ items }) {
               >
                 <Link
                   href={`/product/${item.slug}`}
-                  className="group block overflow-hidden rounded-2xl glass-card luxury-shadow-hover"
+                  className="group glass-card glass-photo-frame luxury-shadow-hover block overflow-hidden rounded-2xl"
                 >
                   <div className="relative aspect-[4/5] overflow-hidden">
                     <Image

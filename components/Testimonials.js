@@ -14,7 +14,7 @@ export default function Testimonials({ items }) {
             transition={{ duration: 0.3 }}
             className="flex h-full flex-col rounded-3xl glass-card p-6 luxury-shadow-hover"
           >
-            <div className="mb-4 flex gap-1 text-accent" aria-label={`${item.rating} out of 5 stars`}>
+            <div className="glass-chip mb-4 flex w-fit gap-1 rounded-full px-3 py-2 text-accent" aria-label={`${item.rating} out of 5 stars`}>
               {Array.from({ length: item.rating }).map((_, index) => (
                 <Star key={index} className="h-4 w-4 fill-current" aria-hidden />
               ))}

@@ -24,11 +24,11 @@ export default function FAQ({ items }) {
                 <span className="font-heading text-base font-semibold md:text-lg">
                   {item.question}
                 </span>
-                <ChevronDown
-                  className={`h-5 w-5 shrink-0 text-accent transition-transform duration-300 ${
-                    isOpen ? "rotate-180" : ""
-                  }`}
-                />
+                <span className="glass-icon flex h-9 w-9 shrink-0 items-center justify-center rounded-xl text-accent-dark">
+                  <ChevronDown
+                    className={`h-5 w-5 transition-transform duration-300 ${isOpen ? "rotate-180" : ""}`}
+                  />
+                </span>
               </button>
               <AnimatePresence initial={false}>
                 {isOpen ? (

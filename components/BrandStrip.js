@@ -7,7 +7,7 @@ export default function BrandStrip({ brands, dark = false }) {
           className={`rounded-xl border px-4 py-2 text-sm font-semibold transition ${
             dark
               ? "border-white/15 bg-white/5 text-white/85 hover:bg-white/10"
-              : "border-border bg-surface text-body shadow-sm hover:shadow-md hover:text-primary"
+              : "glass-chip text-body hover:shadow-md hover:text-primary"
           }`}
         >
           {brand}

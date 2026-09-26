@@ -8,7 +8,7 @@ export default function ComboCard({ product }) {
   const href = `/product/${product.slug}`;
 
   return (
-    <article className="overflow-hidden rounded-2xl border border-border bg-surface shadow-sm transition hover:shadow-md">
+    <article className="glass-card glass-photo-frame luxury-shadow-hover overflow-hidden rounded-2xl">
       <div className="grid gap-0 md:grid-cols-2">
         <Link href={href} className="relative block aspect-[4/3] bg-muted md:aspect-auto md:min-h-[260px]">
           <Image
@@ -19,7 +19,7 @@ export default function ComboCard({ product }) {
             className="object-cover"
           />
         </Link>
-        <div className="flex flex-col justify-center gap-4 p-6">
+        <div className="glass-product-info flex flex-col justify-center gap-4 p-6">
           {product.offer ? (
             <span className="w-fit rounded-full bg-accent/15 px-3 py-1 text-xs font-semibold text-accent-dark">
               {product.offer}
@@ -35,7 +35,7 @@ export default function ComboCard({ product }) {
           <div className="flex flex-wrap gap-3">
             <Link
               href={href}
-              className="inline-flex rounded-xl bg-accent px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-accent-dark"
+              className="premium-button inline-flex rounded-xl bg-accent px-5 py-2.5 text-sm font-semibold text-primary transition"
             >
               View Details
             </Link>

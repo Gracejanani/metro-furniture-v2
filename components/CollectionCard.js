@@ -11,7 +11,7 @@ export default function CollectionCard({ collection }) {
     <AnimateIn>
       <Link
         href={collection.href}
-        className="group relative block overflow-hidden rounded-3xl glass-card luxury-shadow-hover"
+        className="group glass-card glass-photo-frame luxury-shadow-hover relative block overflow-hidden rounded-3xl"
       >
         <div className="relative aspect-[3/4] md:aspect-[4/5]">
           <Image

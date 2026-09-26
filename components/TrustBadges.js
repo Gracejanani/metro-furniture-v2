@@ -20,9 +20,9 @@ export default function TrustBadges({ badges }) {
         <AnimateIn key={badge.id} delay={i * 0.1}>
           <motion.li
             whileHover={{ y: -4 }}
-            className="flex h-full flex-col rounded-3xl glass-card p-6 text-center luxury-shadow-hover"
+            className="glass-card luxury-shadow-hover flex h-full flex-col rounded-3xl p-6 text-center"
           >
-            <div className="mx-auto mb-4 flex h-12 w-12 items-center justify-center rounded-2xl accent-gradient text-white">
+            <div className="glass-icon mx-auto mb-4 flex h-12 w-12 items-center justify-center rounded-2xl text-accent-dark">
               <Icon className="h-6 w-6" strokeWidth={1.75} aria-hidden />
             </div>
             <h3 className="font-heading text-lg font-bold">{badge.title}</h3>

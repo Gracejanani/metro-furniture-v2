@@ -25,7 +25,7 @@ function renderText(text) {
 
 function ChatProductCard({ product, onSelect }) {
   return (
-    <div className="mt-2 overflow-hidden rounded-xl border border-border/60 bg-surface">
+    <div className="glass-card mt-2 overflow-hidden rounded-xl">
       <Link href={`/product/${product.slug}`} className="flex gap-3 p-2.5 transition hover:bg-muted/40">
         <div className="relative h-16 w-16 shrink-0 overflow-hidden rounded-lg bg-muted">
           <Image
