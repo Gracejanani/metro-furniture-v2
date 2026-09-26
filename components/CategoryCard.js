@@ -22,13 +22,13 @@ export default function CategoryCard({ category }) {
             className="object-cover transition duration-700 group-hover:scale-110"
             loading="lazy"
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
+          <div className="absolute inset-0 bg-gradient-to-t from-black/45 via-black/10 to-transparent" />
           <motion.div
-            className="absolute inset-x-0 bottom-0 p-5 text-white"
+            className="glass-overlay absolute inset-x-3 bottom-3 rounded-2xl p-4 sm:inset-x-4 sm:bottom-4 sm:p-5"
             whileHover={{ y: -4 }}
             transition={{ duration: 0.3 }}
           >
-            <h3 className="font-heading text-xl font-bold">{category.name}</h3>
+            <h3 className="font-heading text-lg font-semibold sm:text-xl">{category.name}</h3>
             <p className="mt-1 line-clamp-2 text-sm text-white/80">{category.description}</p>
             <span className="mt-3 inline-flex items-center gap-1.5 text-xs font-semibold uppercase tracking-wider text-accent">
               Explore

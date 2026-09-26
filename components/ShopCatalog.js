@@ -97,7 +97,7 @@ export default function ShopCatalog({ products, query = "" }) {
         </div>
       </div>
 
-      <div className="flex flex-col gap-4 rounded-2xl border border-border/70 bg-surface/80 p-4 shadow-sm backdrop-blur sm:flex-row sm:items-center sm:justify-between">
+      <div className="glass-card flex flex-col gap-4 rounded-2xl p-4 sm:flex-row sm:items-center sm:justify-between">
         <p className="text-sm text-body">
           Showing{" "}
           <span className="font-semibold text-foreground">
@@ -156,8 +156,8 @@ export default function ShopCatalog({ products, query = "" }) {
                 aria-current={n === currentPage ? "page" : undefined}
                 className={`inline-flex h-10 min-w-10 items-center justify-center rounded-xl px-3 text-sm font-semibold transition ${
                   n === currentPage
-                    ? "bg-accent text-white shadow-md shadow-accent/20"
-                    : "border border-border bg-surface text-body hover:border-accent/40 hover:text-foreground"
+                    ? "premium-button bg-accent text-primary shadow-md shadow-accent/20"
+                    : "glass-button text-body hover:border-accent/40 hover:text-foreground"
                 }`}
               >
                 {n}
@@ -207,8 +207,8 @@ function FilterChip({ active, onClick, label }) {
       aria-pressed={active}
       className={`shrink-0 rounded-full px-3.5 py-1.5 text-sm font-medium transition duration-200 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent ${
         active
-          ? "bg-accent text-white shadow-sm"
-          : "border border-border/80 bg-surface text-body hover:border-accent/30 hover:text-foreground"
+          ? "premium-button bg-accent text-primary shadow-sm"
+          : "glass-button text-body hover:border-accent/40 hover:text-foreground"
       }`}
     >
       {label}

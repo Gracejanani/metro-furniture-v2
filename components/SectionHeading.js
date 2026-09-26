@@ -10,7 +10,7 @@ export default function SectionHeading({
     align === "left" ? "text-left items-start" : "text-center items-center";
 
   return (
-    <AnimateIn className={`mb-10 flex flex-col gap-2 ${alignClass} ${className}`}>
+    <AnimateIn className={`site-section-heading mb-10 flex flex-col gap-2 ${alignClass} ${className}`}>
       <h2 className="max-w-3xl font-heading text-2xl font-semibold tracking-tight md:text-3xl">
         {title}
       </h2>

@@ -11,7 +11,7 @@ export default function FloatingContact() {
       <Link
         href={`tel:${business.primaryPhone}`}
         aria-label={`Call ${business.primaryPhone}`}
-        className="flex h-13 w-13 items-center justify-center rounded-full bg-primary text-white shadow-[0_12px_30px_rgba(17,24,39,0.24)] transition duration-200 hover:-translate-y-0.5 hover:bg-primary-dark animate-float-soft"
+        className="glass-fab flex h-13 w-13 items-center justify-center rounded-full bg-primary text-white transition duration-200 hover:-translate-y-0.5 hover:bg-primary-dark animate-float-soft"
       >
         <Phone size={22} strokeWidth={2.2} />
       </Link>
@@ -21,7 +21,7 @@ export default function FloatingContact() {
         target="_blank"
         rel="noopener noreferrer"
         aria-label="Chat on WhatsApp"
-        className="flex h-13 w-13 items-center justify-center rounded-full bg-[#25D366] text-white shadow-[0_12px_30px_rgba(37,211,102,0.24)] transition duration-200 hover:-translate-y-0.5 hover:bg-[#1ebe5d] animate-wa-pulse"
+        className="glass-fab flex h-13 w-13 items-center justify-center rounded-full bg-[#168a4a] text-white shadow-[0_12px_30px_rgba(22,138,74,0.24)] transition duration-200 hover:-translate-y-0.5 hover:bg-[#11733d] animate-wa-pulse"
       >
         <MessageCircleMore size={22} strokeWidth={2.2} />
       </Link>

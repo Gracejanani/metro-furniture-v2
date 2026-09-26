@@ -41,7 +41,7 @@ export default function CustomDesignForm() {
 
   if (submitted) {
     return (
-      <div className="rounded-2xl border border-border bg-surface p-6 shadow-sm">
+      <div className="glass-card rounded-3xl p-6">
         <h3 className="font-heading text-xl font-bold text-foreground">
           Request ready
         </h3>
@@ -62,7 +62,7 @@ export default function CustomDesignForm() {
   return (
     <form
       onSubmit={handleSubmit}
-      className="space-y-4 rounded-2xl border border-border bg-surface p-6 shadow-sm"
+      className="glass-card space-y-4 rounded-3xl p-6"
     >
       <div className="grid gap-4 sm:grid-cols-2">
         <div>

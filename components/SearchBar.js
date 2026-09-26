@@ -29,7 +29,7 @@ export default function SearchBar({
       <label htmlFor="product-search" className="sr-only">
         Search furniture
       </label>
-      <div className="group flex items-center overflow-hidden rounded-2xl border border-border/80 bg-surface shadow-sm transition duration-200 focus-within:border-accent/40 focus-within:shadow-md focus-within:ring-4 focus-within:ring-accent/10">
+      <div className="glass-button group flex items-center overflow-hidden rounded-2xl transition duration-200 focus-within:border-accent/50 focus-within:shadow-md focus-within:ring-4 focus-within:ring-accent/10">
         <span className="pl-4 text-body/50" aria-hidden="true">
           <Search className="h-5 w-5" aria-hidden />
         </span>
@@ -39,11 +39,11 @@ export default function SearchBar({
           value={query}
           onChange={(event) => setQuery(event.target.value)}
           placeholder={placeholder}
-          className="w-full bg-transparent px-3 py-3.5 text-sm text-foreground outline-none placeholder:text-body/50"
+          className="input-clear w-full bg-transparent px-3 py-3.5 text-sm text-foreground outline-none placeholder:text-body/50"
         />
         <button
           type="submit"
-          className="m-1.5 rounded-xl bg-accent px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-accent-dark active:scale-[0.98]"
+          className="premium-button m-1.5 rounded-xl bg-accent px-5 py-2.5 text-sm font-semibold text-primary transition active:scale-[0.98]"
         >
           Search
         </button>

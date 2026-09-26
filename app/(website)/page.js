@@ -42,7 +42,7 @@ export default function HomePage() {
     <>
       <HeroSlider slides={heroSlides} />
 
-      <section className="border-b border-accent/10 bg-surface/90 py-3.5 backdrop-blur-sm">
+      <section className="glass-ribbon">
         <div className="container mx-auto flex flex-wrap items-center justify-center gap-x-6 gap-y-1 px-4 text-center text-sm text-body">
           <span className="font-medium text-foreground">{business.tagline}</span>
           <span className="hidden text-border sm:inline">|</span>

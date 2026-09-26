@@ -43,7 +43,7 @@ export default function ProductCard({ product }) {
             {product.offer ? <Badge variant="secondary">{product.offer}</Badge> : null}
           </div>
 
-          <div className="absolute right-3 top-3 flex flex-col gap-2 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+          <div className="absolute right-3 top-3 flex flex-col gap-2 opacity-100 transition-opacity duration-300 md:opacity-0 md:group-hover:opacity-100">
             <Button
               variant="glass"
               size="icon"
@@ -63,12 +63,12 @@ export default function ProductCard({ product }) {
             </Button>
           </div>
 
-          <div className="absolute inset-x-0 bottom-0 translate-y-full p-3 transition-transform duration-300 group-hover:translate-y-0">
+          <div className="absolute inset-x-0 bottom-0 translate-y-0 p-3 transition-transform duration-300 md:translate-y-full md:group-hover:translate-y-0">
             <Link
               href={quoteUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="flex w-full items-center justify-center gap-2 rounded-2xl bg-accent py-2.5 text-sm font-semibold text-white shadow-lg transition hover:bg-accent-dark"
+              className="premium-button flex w-full items-center justify-center gap-2 rounded-2xl bg-accent py-2.5 text-sm font-semibold text-primary transition hover:bg-accent-dark"
             >
               <ShoppingBag className="h-4 w-4" />
               Add to Quote
@@ -92,7 +92,7 @@ export default function ProductCard({ product }) {
             <PriceOnly product={product} size="sm" />
             <Link
               href={href}
-              className="inline-flex w-full items-center justify-center rounded-2xl border border-border bg-surface px-4 py-2.5 text-sm font-semibold transition hover:border-accent hover:text-accent"
+              className="glass-button inline-flex w-full items-center justify-center rounded-2xl px-4 py-2.5 text-sm font-semibold transition hover:border-accent/60 hover:text-primary"
             >
               View Details
             </Link>

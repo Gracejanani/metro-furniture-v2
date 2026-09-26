@@ -7,17 +7,17 @@ const buttonVariants = cva(
     variants: {
       variant: {
         default:
-          "bg-accent text-white shadow-sm hover:bg-accent-dark hover:shadow-md active:scale-[0.98] focus-visible:outline-accent",
+          "premium-button bg-accent text-primary shadow-sm hover:bg-accent-dark hover:shadow-md active:scale-[0.98] focus-visible:outline-accent",
         primary:
           "bg-primary text-white shadow-sm hover:bg-primary-dark hover:shadow-md active:scale-[0.98] focus-visible:outline-accent",
         accent:
-          "bg-accent text-white shadow-sm hover:bg-accent-dark hover:shadow-md active:scale-[0.98] focus-visible:outline-accent",
+          "premium-button bg-accent text-primary shadow-sm hover:bg-accent-dark hover:shadow-md active:scale-[0.98] focus-visible:outline-accent",
         outline:
-          "border-2 border-border bg-surface text-foreground hover:border-accent hover:text-accent focus-visible:outline-accent",
+          "glass-button border border-white/80 text-foreground hover:border-accent/50 hover:bg-white/85 hover:text-primary focus-visible:outline-accent",
         ghost:
           "text-foreground hover:bg-muted focus-visible:outline-accent",
         glass:
-          "glass text-foreground hover:bg-white/90 focus-visible:outline-accent",
+          "glass-button text-foreground transition hover:border-white hover:bg-white/85 focus-visible:outline-accent",
       },
       size: {
         default: "h-11 px-5 py-2.5",

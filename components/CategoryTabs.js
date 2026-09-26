@@ -36,8 +36,8 @@ export default function CategoryTabs({ categories, basePath = "/shop" }) {
             aria-selected={isActive}
             className={`shrink-0 whitespace-nowrap rounded-full px-4 py-2 text-sm font-medium transition duration-200 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent ${
               isActive
-                ? "bg-accent text-white shadow-md shadow-accent/20"
-                : "border border-border/80 bg-surface/90 text-body backdrop-blur hover:border-accent/40 hover:bg-surface hover:text-foreground"
+                ? "premium-button bg-accent text-primary shadow-md shadow-accent/20"
+                : "glass-button text-body hover:border-accent/40 hover:text-foreground"
             }`}
           >
             {tab.name}

@@ -15,10 +15,10 @@ export default function Header() {
   const [scrolled, setScrolled] = useState(false);
 
   const getNavLinkClassName = (active) =>
-    `relative rounded-lg px-3 py-2 text-sm font-medium transition duration-200 ${
+      `relative rounded-full px-3.5 py-2 text-sm font-medium transition duration-200 ${
       active
-        ? "text-accent"
-        : "text-white/75 hover:text-white"
+        ? "bg-white/10 text-accent shadow-[inset_0_1px_0_rgba(255,255,255,0.12)]"
+        : "text-white/75 hover:bg-white/8 hover:text-white"
     }`;
 
   useEffect(() => {
@@ -80,7 +80,7 @@ export default function Header() {
           <CallButton label="Call" className="hidden sm:inline-flex" />
           <button
             type="button"
-            className="inline-flex h-10 w-10 items-center justify-center rounded-xl border border-white/15 bg-white/10 text-white transition hover:border-accent/50 hover:bg-white/15 hover:text-accent xl:hidden"
+            className="glass inline-flex h-10 w-10 items-center justify-center rounded-2xl border-white/20 bg-white/10 text-white transition hover:border-accent/50 hover:bg-white/15 hover:text-accent xl:hidden"
             aria-expanded={open}
             aria-controls="mobile-menu"
             aria-label={open ? "Close menu" : "Open menu"}

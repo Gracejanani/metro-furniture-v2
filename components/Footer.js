@@ -8,7 +8,7 @@ import BrandStrip from "@/components/BrandStrip";
 
 export default function Footer() {
   return (
-    <footer className="mt-auto border-t border-border bg-primary text-white">
+    <footer className="glass-footer mt-auto text-white">
       <div className="container mx-auto px-4 py-14 md:py-16">
         <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-4">
           <div className="space-y-4">
