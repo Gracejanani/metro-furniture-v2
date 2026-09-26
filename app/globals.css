@@ -193,12 +193,11 @@ h4,
 }
 
 .glass-card {
-  border: 1px solid transparent;
+  border: 1px solid rgba(200, 169, 106, 0.28);
   background:
-    radial-gradient(ellipse at 8% 0%, rgba(255, 255, 255, 0.88), transparent 53%) padding-box,
-    radial-gradient(ellipse at 100% 95%, rgba(200, 169, 106, 0.16), transparent 56%) padding-box,
-    linear-gradient(145deg, rgba(255, 255, 255, 0.66), rgba(255, 255, 255, 0.34) 60%, rgba(255, 255, 255, 0.54)) padding-box,
-    conic-gradient(from 210deg, rgba(200, 169, 106, 0.33), rgba(255, 255, 255, 0.98) 20%, rgba(200, 169, 106, 0.47) 38%, rgba(255, 255, 255, 0.97) 62%, rgba(200, 169, 106, 0.35) 82%, rgba(255, 255, 255, 0.92)) border-box;
+    radial-gradient(ellipse at 8% 0%, rgba(255, 255, 255, 0.88), transparent 53%),
+    radial-gradient(ellipse at 100% 95%, rgba(200, 169, 106, 0.16), transparent 56%),
+    linear-gradient(145deg, rgba(255, 255, 255, 0.66), rgba(255, 255, 255, 0.34) 60%, rgba(255, 255, 255, 0.54));
   backdrop-filter: blur(24px) saturate(1.42);
   -webkit-backdrop-filter: blur(24px) saturate(1.42);
   box-shadow:
