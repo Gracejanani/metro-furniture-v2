@@ -34,7 +34,7 @@ export default function GalleryPage() {
             href={business.social.instagram}
             target="_blank"
             rel="noopener noreferrer"
-            className="rounded-2xl bg-accent px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-accent-dark"
+            className="premium-button rounded-2xl bg-accent px-5 py-2.5 text-sm font-semibold text-primary transition"
           >
             Follow @metrofurnituredpi
           </Link>
@@ -49,7 +49,7 @@ export default function GalleryPage() {
           {galleryImages.map((item, i) => (
             <div
               key={item.src}
-              className="group mb-4 break-inside-avoid overflow-hidden rounded-3xl glass-card luxury-shadow-hover"
+              className="group glass-card glass-photo-frame luxury-shadow-hover mb-4 break-inside-avoid overflow-hidden rounded-3xl"
             >
               <div className="relative aspect-[4/3]">
                 <Image
@@ -61,7 +61,7 @@ export default function GalleryPage() {
                   loading={i < 3 ? "eager" : "lazy"}
                 />
               </div>
-              <p className="px-4 py-3 text-sm font-medium text-body">{item.alt}</p>
+              <p className="glass-product-info px-4 py-3 text-sm font-medium text-body">{item.alt}</p>
             </div>
           ))}
         </div>
@@ -77,7 +77,7 @@ export default function GalleryPage() {
                 <Link
                   key={p.id}
                   href={`/product/${p.slug}`}
-                  className="group mb-4 block break-inside-avoid overflow-hidden rounded-3xl glass-card luxury-shadow-hover"
+                  className="group glass-card glass-photo-frame luxury-shadow-hover mb-4 block break-inside-avoid overflow-hidden rounded-3xl"
                 >
                   <div className="relative aspect-[4/3]">
                     <Image
@@ -89,7 +89,7 @@ export default function GalleryPage() {
                       loading="lazy"
                     />
                   </div>
-                  <p className="px-4 py-3 text-sm font-semibold">{p.name}</p>
+                  <p className="glass-product-info px-4 py-3 text-sm font-semibold">{p.name}</p>
                 </Link>
               ))}
             </div>

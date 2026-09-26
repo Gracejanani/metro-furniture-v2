@@ -24,7 +24,7 @@ export default function ProductGallery({ images, name, offer }) {
   return (
     <div className="space-y-4">
       <div
-        className="group relative aspect-[4/5] overflow-hidden rounded-3xl border border-border/60 bg-muted shadow-[0_8px_30px_rgba(43,33,28,0.08)] sm:aspect-square lg:aspect-[4/5]"
+        className="group glass-card glass-photo-frame relative aspect-[4/5] overflow-hidden rounded-3xl bg-muted sm:aspect-square lg:aspect-[4/5]"
         onMouseEnter={() => setZooming(true)}
         onMouseLeave={() => setZooming(false)}
         onMouseMove={onMove}

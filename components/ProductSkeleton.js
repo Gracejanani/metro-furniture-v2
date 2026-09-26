@@ -1,6 +1,6 @@
 export function ProductCardSkeleton() {
   return (
-    <div className="overflow-hidden rounded-3xl border border-border/60 bg-white shadow-sm" aria-hidden="true">
+    <div className="glass-card overflow-hidden rounded-3xl" aria-hidden="true">
       <div className="skeleton aspect-[4/5]" />
       <div className="space-y-3 p-5">
         <div className="skeleton h-3 w-20 rounded-full" />

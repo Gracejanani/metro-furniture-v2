@@ -11,7 +11,7 @@ export default function CategoryCard({ category }) {
     <AnimateIn>
       <Link
         href={`/shop/${category.slug}`}
-        className="group relative block overflow-hidden rounded-3xl glass-card luxury-shadow-hover"
+        className="group glass-card glass-photo-frame luxury-shadow-hover relative block overflow-hidden rounded-3xl"
       >
         <div className="relative aspect-[4/3]">
           <Image

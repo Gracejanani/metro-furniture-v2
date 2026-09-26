@@ -45,9 +45,9 @@ export default function BranchesPage() {
           {branches.map((branch) => (
             <div
               key={`${branch.id}-map`}
-              className="overflow-hidden rounded-2xl border border-border bg-surface shadow-sm"
+              className="glass-card overflow-hidden rounded-2xl"
             >
-              <div className="border-b border-border px-4 py-3">
+              <div className="border-b border-white/75 px-4 py-3">
                 <h3 className="font-heading font-semibold text-foreground">
                   {branch.name}
                 </h3>

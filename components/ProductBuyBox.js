@@ -207,7 +207,7 @@ export default function ProductBuyBox({ product }) {
             <div className="space-y-4">
               <p className="text-[15px] leading-relaxed text-body">{product.description}</p>
               {product.configuration ? (
-                <div className="rounded-xl bg-muted/40 p-4">
+                <div className="glass rounded-xl p-4">
                   <p className="text-[11px] font-semibold uppercase tracking-wider text-accent">
                     Configuration
                   </p>
@@ -215,7 +215,7 @@ export default function ProductBuyBox({ product }) {
                 </div>
               ) : null}
               {product.upholstery ? (
-                <div className="rounded-xl bg-muted/40 p-4">
+                <div className="glass rounded-xl p-4">
                   <p className="text-[11px] font-semibold uppercase tracking-wider text-accent">
                     Upholstery
                   </p>
@@ -226,9 +226,9 @@ export default function ProductBuyBox({ product }) {
           ) : null}
 
           {tab === "specs" && product.specs?.length ? (
-            <dl className="divide-y divide-border/60 rounded-2xl border border-border/60 overflow-hidden">
+            <dl className="glass divide-y divide-border/60 overflow-hidden rounded-2xl">
               {product.specs.map((spec) => (
-                <div key={spec.label} className="flex gap-4 bg-surface px-4 py-3 even:bg-muted/20">
+                <div key={spec.label} className="flex gap-4 px-4 py-3 even:bg-white/20">
                   <dt className="w-2/5 shrink-0 text-sm font-medium text-body">{spec.label}</dt>
                   <dd className="text-sm font-semibold text-foreground">{spec.value}</dd>
                 </div>
@@ -240,7 +240,7 @@ export default function ProductBuyBox({ product }) {
             <ul className="space-y-3">
               {product.features.map((feature) => (
                 <li key={feature} className="flex items-start gap-3 text-sm">
-                  <span className="mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-accent/15 text-accent">
+                  <span className="glass-icon mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-full text-accent-dark">
                     <Check className="h-3 w-3" strokeWidth={3} aria-hidden />
                   </span>
                   {feature}

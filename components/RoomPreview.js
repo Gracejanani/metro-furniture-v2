@@ -77,7 +77,7 @@ export default function RoomPreview({ productImage, productName }) {
       <button
         type="button"
         onClick={() => setOpen(true)}
-        className="group flex w-full items-center justify-center gap-2.5 rounded-2xl border border-accent/30 bg-gradient-to-r from-accent/10 to-accent/5 px-5 py-3.5 text-sm font-semibold text-foreground transition hover:border-accent hover:shadow-md"
+        className="glass-button group flex w-full items-center justify-center gap-2.5 rounded-2xl px-5 py-3.5 text-sm font-semibold text-foreground transition hover:border-accent hover:shadow-md"
       >
         <Camera className="h-4 w-4 text-accent transition group-hover:scale-110" />
         Try in Your Room

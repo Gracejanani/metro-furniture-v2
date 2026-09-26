@@ -222,7 +222,7 @@ function PaginationButton({ disabled, onClick, label }) {
       type="button"
       disabled={disabled}
       onClick={onClick}
-      className="inline-flex h-10 items-center rounded-xl border border-border bg-white px-4 text-sm font-semibold text-foreground transition hover:border-primary/40 hover:text-primary disabled:cursor-not-allowed disabled:opacity-40"
+      className="glass-button inline-flex h-10 items-center rounded-xl px-4 text-sm font-semibold text-foreground transition hover:border-primary/40 hover:text-primary disabled:cursor-not-allowed disabled:opacity-40"
     >
       {label}
     </button>

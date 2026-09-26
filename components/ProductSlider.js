@@ -55,7 +55,7 @@ export default function ProductSlider({
               type="button"
               onClick={scrollPrev}
               aria-label="Previous"
-              className="flex h-10 w-10 items-center justify-center rounded-full border border-border/80 bg-surface/80 text-foreground shadow-sm backdrop-blur transition hover:border-accent hover:text-accent"
+              className="glass-button flex h-10 w-10 items-center justify-center rounded-full text-foreground transition hover:border-accent hover:text-accent"
             >
               <ChevronLeft className="h-4 w-4" />
             </button>
@@ -63,7 +63,7 @@ export default function ProductSlider({
               type="button"
               onClick={scrollNext}
               aria-label="Next"
-              className="flex h-10 w-10 items-center justify-center rounded-full border border-border/80 bg-surface/80 text-foreground shadow-sm backdrop-blur transition hover:border-accent hover:text-accent"
+              className="glass-button flex h-10 w-10 items-center justify-center rounded-full text-foreground transition hover:border-accent hover:text-accent"
             >
               <ChevronRight className="h-4 w-4" />
             </button>
@@ -77,7 +77,7 @@ export default function ProductSlider({
                 key={product.id}
                 className="min-w-0 flex-[0_0_78%] sm:flex-[0_0_46%] lg:flex-[0_0_31%] xl:flex-[0_0_23%]"
               >
-                <article className="group flex h-full flex-col overflow-hidden rounded-2xl glass-card luxury-shadow-hover">
+                <article className="group glass-card glass-photo-frame luxury-shadow-hover flex h-full flex-col overflow-hidden rounded-2xl">
                   <Link
                     href={`/product/${product.slug}`}
                     className="relative block aspect-[4/5] overflow-hidden bg-muted"
@@ -104,12 +104,12 @@ export default function ProductSlider({
                     </div>
                   </Link>
 
-                  <div className="flex flex-1 flex-col gap-3 p-4">
+                  <div className="glass-product-info flex flex-1 flex-col gap-3 p-4">
                     <PriceOnly product={product} size="sm" />
                     <div className="mt-auto flex gap-2">
                       <Link
                         href={`/product/${product.slug}`}
-                        className="flex flex-1 items-center justify-center rounded-xl border border-border py-2 text-xs font-medium transition hover:border-accent hover:text-accent"
+                        className="glass-button flex flex-1 items-center justify-center rounded-xl py-2 text-xs font-medium transition hover:border-accent hover:text-accent"
                       >
                         Details
                       </Link>
@@ -117,7 +117,7 @@ export default function ProductSlider({
                         href={buildWhatsAppUrl(productEnquiryMessage(product))}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="flex flex-1 items-center justify-center gap-1 rounded-xl bg-accent py-2 text-xs font-medium text-white transition hover:bg-accent-dark"
+                        className="premium-button flex flex-1 items-center justify-center gap-1 rounded-xl bg-accent py-2 text-xs font-medium text-primary transition"
                       >
                         <ShoppingBag className="h-3.5 w-3.5" />
                         Quote

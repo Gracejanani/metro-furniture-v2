@@ -23,7 +23,7 @@ export default function ProductCard({ product }) {
         layout
         whileHover={{ y: -6 }}
         transition={{ duration: 0.35, ease: [0.22, 1, 0.36, 1] }}
-        className="group flex h-full flex-col overflow-hidden rounded-3xl glass-card glass-reflection luxury-shadow-hover"
+        className="group glass-card glass-photo-frame luxury-shadow-hover flex h-full flex-col overflow-hidden rounded-3xl"
       >
         <div className="relative aspect-[4/5] overflow-hidden bg-muted">
           <Link href={href} aria-label={`View ${product.name}`}>
@@ -76,7 +76,7 @@ export default function ProductCard({ product }) {
           </div>
         </div>
 
-        <div className="flex flex-1 flex-col gap-3 p-5">
+        <div className="glass-product-info flex flex-1 flex-col gap-3 p-5">
           <div className="flex items-center justify-between gap-2">
             <p className="text-xs text-accent">{product.category}</p>
             <span className="text-xs text-body">{product.material}</span>
