@@ -15,9 +15,9 @@ export default function WhatsAppButton({
     "inline-flex items-center justify-center gap-2 rounded-xl px-5 py-2.5 text-sm font-semibold transition duration-200 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent";
 
   const variants = {
-    primary: "bg-[#25D366] text-white hover:bg-[#1ebe5d] shadow-sm hover:shadow-md active:scale-[0.98]",
+    primary: "border border-white/20 bg-[#168a4a] text-white shadow-[0_8px_20px_rgba(22,138,74,0.2)] hover:bg-[#11733d] hover:shadow-md active:scale-[0.98]",
     secondary:
-      "border-2 border-accent text-foreground hover:bg-accent hover:text-white",
+      "glass-button border border-accent/30 text-foreground hover:border-accent/70 hover:bg-accent/10",
     light: "bg-white text-[#128C7E] hover:bg-muted",
   };
 

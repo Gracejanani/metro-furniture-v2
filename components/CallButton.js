@@ -14,9 +14,9 @@ export default function CallButton({
 
   const variants = {
     primary:
-      "bg-accent text-white hover:bg-accent-dark shadow-sm shadow-accent/20 hover:shadow-md hover:shadow-accent/25 active:scale-[0.98]",
+      "premium-button bg-accent text-primary hover:bg-accent-dark shadow-sm shadow-accent/20 hover:shadow-md hover:shadow-accent/25 active:scale-[0.98]",
     secondary:
-      "border-2 border-accent/40 text-foreground hover:bg-accent hover:text-white",
+      "glass-button border border-accent/30 text-foreground hover:border-accent/70 hover:bg-accent/10",
     ghost: "bg-muted text-foreground hover:bg-border",
     light: "bg-white text-primary hover:bg-muted",
   };

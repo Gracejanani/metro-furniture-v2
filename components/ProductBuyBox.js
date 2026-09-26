@@ -58,7 +58,7 @@ export default function ProductBuyBox({ product }) {
       initial={{ opacity: 0, y: 24 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5, ease: [0.22, 1, 0.36, 1] }}
-      className="flex flex-col"
+      className="glass-card flex flex-col rounded-3xl p-5 sm:p-7 md:p-8"
     >
       <div className="flex flex-wrap items-center gap-2 text-sm">
         <span className="text-body">{product.category}</span>
@@ -84,12 +84,12 @@ export default function ProductBuyBox({ product }) {
         </p>
       ) : null}
 
-      <div className="mt-6 rounded-2xl border border-border/60 bg-muted/20 p-5">
+      <div className="glass mt-6 rounded-2xl p-5">
         <PriceTag product={product} size="lg" />
       </div>
 
       {orderStep ? (
-        <div className="mt-4 rounded-2xl border border-border/60 bg-muted/30 p-4">
+        <div className="glass mt-4 rounded-2xl p-4">
           <p className="text-sm font-medium text-foreground">Quick WhatsApp order</p>
           <p className="mt-2 text-sm text-body">
             {orderStep === "mobile"
@@ -113,7 +113,7 @@ export default function ProductBuyBox({ product }) {
             />
             <button
               type="submit"
-              className="shrink-0 rounded-xl bg-accent px-4 py-2.5 text-sm font-semibold text-white transition hover:bg-accent-dark"
+              className="premium-button shrink-0 rounded-xl bg-accent px-4 py-2.5 text-sm font-semibold text-primary transition hover:bg-accent-dark"
             >
               Next
             </button>
@@ -131,7 +131,7 @@ export default function ProductBuyBox({ product }) {
           <button
             type="button"
             onClick={startQuickOrder}
-            className="flex w-full items-center justify-center gap-2 rounded-xl bg-accent px-5 py-3.5 text-sm font-medium text-white shadow-sm transition hover:bg-accent-dark"
+            className="premium-button flex w-full items-center justify-center gap-2 rounded-xl bg-accent px-5 py-3.5 text-sm font-semibold text-primary transition hover:bg-accent-dark"
           >
             <ShoppingBag className="h-4 w-4" />
             Quick Order via WhatsApp
@@ -154,7 +154,7 @@ export default function ProductBuyBox({ product }) {
         <RoomPreview productImage={product.image} productName={product.name} />
       </div>
 
-      <div className="mt-4 rounded-xl border border-border/60 bg-muted/20 p-4">
+      <div className="glass mt-4 rounded-2xl p-4">
         <div className="flex items-start gap-3">
           <MessageCircle className="mt-0.5 h-4 w-4 shrink-0 text-body" />
           <p className="text-sm text-body">

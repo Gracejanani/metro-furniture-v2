@@ -7,7 +7,7 @@ import ChatAssistant from "@/components/ChatAssistant";
 
 export default function WebsiteLayout({ children }) {
   return (
-    <div className="relative flex min-h-full flex-col bg-transparent font-sans text-foreground">
+    <div className="site-shell relative flex min-h-full flex-col bg-transparent font-sans text-foreground">
       <AnimatedBackground />
       <InitialLoader />
       <Header />

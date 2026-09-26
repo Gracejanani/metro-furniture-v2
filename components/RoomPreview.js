@@ -113,7 +113,7 @@ export default function RoomPreview({ productImage, productName }) {
               <div className="flex h-full flex-col items-center justify-center gap-4 px-6 text-center">
                 <Camera className="h-12 w-12 text-white/40" />
                 <p className="max-w-sm text-sm text-white/70">{error}</p>
-                <Button onClick={startCamera} className="rounded-2xl bg-accent text-white">
+                <Button onClick={startCamera} className="rounded-2xl text-primary">
                   Retry Camera
                 </Button>
               </div>

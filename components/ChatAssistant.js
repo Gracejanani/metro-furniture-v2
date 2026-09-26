@@ -12,7 +12,6 @@ import {
 } from "@/lib/chatbot";
 import { getProductBySlug } from "@/data/products";
 import { PriceOnly } from "@/components/PriceTag";
-import { LOADER_COMPLETE_EVENT, MAX_LOADER_MS, MOBILE_LOADER_MS, isMobileViewport } from "@/lib/loader";
 
 function renderText(text) {
   const parts = text.split(/(\*\*[^*]+\*\*)/g);
@@ -71,28 +70,6 @@ export default function ChatAssistant() {
   const [orderFlow, setOrderFlow] = useState(null);
   const [whatsappUrl, setWhatsappUrl] = useState(null);
   const bottomRef = useRef(null);
-  const autoOpenedRef = useRef(false);
-
-  useEffect(() => {
-    const openChat = () => {
-      if (autoOpenedRef.current) return;
-      autoOpenedRef.current = true;
-      window.setTimeout(() => setOpen(true), 350);
-    };
-
-    window.addEventListener(LOADER_COMPLETE_EVENT, openChat);
-
-    const loaderMs = isMobileViewport() ? MOBILE_LOADER_MS : MAX_LOADER_MS;
-    const fallback = window.setTimeout(() => {
-      if (!autoOpenedRef.current) openChat();
-    }, loaderMs + 500);
-
-    return () => {
-      window.removeEventListener(LOADER_COMPLETE_EVENT, openChat);
-      window.clearTimeout(fallback);
-    };
-  }, []);
-
   const pushBot = useCallback((text, extra = {}) => {
     setMessages((prev) => [...prev, { role: "bot", text, ...extra }]);
     if (extra.whatsappUrl) setWhatsappUrl(extra.whatsappUrl);
@@ -181,17 +158,18 @@ export default function ChatAssistant() {
       <button
         type="button"
         onClick={() => setOpen((v) => !v)}
-        aria-label="Open chat assistant"
-        className="fixed bottom-5 left-5 z-[60] flex h-13 w-13 items-center justify-center rounded-full bg-accent text-white shadow-[0_8px_24px_rgba(200,169,106,0.35)] transition hover:scale-105 hover:bg-accent-dark md:z-50"
+        aria-label={open ? "Close chat assistant" : "Open chat assistant"}
+        aria-expanded={open}
+        className="glass-nav fixed bottom-5 left-5 z-[60] flex h-13 w-13 items-center justify-center rounded-full border border-white/20 text-accent shadow-[0_8px_24px_rgba(25,33,28,0.28)] transition hover:scale-105 hover:text-white md:z-50"
       >
         {open ? <X className="h-5 w-5" /> : <MessageCircle className="h-5 w-5" />}
       </button>
 
       {open ? (
-        <div className="fixed inset-x-0 bottom-0 z-50 flex h-[min(100dvh,100%)] max-h-[100dvh] flex-col overflow-hidden rounded-t-2xl border border-accent/15 bg-surface shadow-[0_16px_48px_rgba(26,28,32,0.12)] md:inset-x-auto md:bottom-24 md:left-5 md:h-[min(520px,calc(100vh-8rem))] md:w-[min(400px,calc(100vw-2.5rem))] md:rounded-2xl">
-          <div className="flex items-center gap-3 border-b border-border/60 px-4 py-3.5">
-            <div className="flex h-9 w-9 items-center justify-center rounded-full bg-muted">
-              <MessageCircle className="h-4 w-4 text-foreground" />
+        <div className="glass-card fixed inset-x-0 bottom-0 z-50 flex h-[min(100dvh,100%)] max-h-[100dvh] flex-col overflow-hidden rounded-t-2xl border-white/65 shadow-[0_16px_48px_rgba(26,33,27,0.2)] md:inset-x-auto md:bottom-24 md:left-5 md:h-[min(520px,calc(100vh-8rem))] md:w-[min(400px,calc(100vw-2.5rem))] md:rounded-2xl">
+          <div className="flex items-center gap-3 border-b border-white/55 bg-white/30 px-4 py-3.5 backdrop-blur-xl">
+            <div className="glass flex h-9 w-9 items-center justify-center rounded-full">
+              <MessageCircle className="h-4 w-4 text-primary" />
             </div>
             <div className="min-w-0 flex-1">
               <p className="truncate text-sm font-semibold">Metro Assistant</p>
@@ -292,7 +270,7 @@ export default function ChatAssistant() {
               />
               <button
                 type="submit"
-                className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-accent text-white transition hover:bg-accent-dark"
+                className="premium-button flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-accent text-primary transition hover:bg-accent-dark"
                 aria-label="Send"
               >
                 <Send className="h-4 w-4" />

@@ -22,12 +22,12 @@ export default function CollectionCard({ collection }) {
             className="object-cover transition duration-700 group-hover:scale-110"
             loading="lazy"
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-black/75 via-black/25 to-transparent" />
+          <div className="absolute inset-0 bg-gradient-to-t from-black/45 via-black/10 to-transparent" />
           <motion.div
-            className="absolute inset-x-0 bottom-0 p-6"
+            className="glass-overlay absolute inset-x-3 bottom-3 rounded-2xl p-4 sm:inset-x-4 sm:bottom-4 sm:p-5"
             whileHover={{ y: -4 }}
           >
-            <h3 className="font-heading text-2xl font-bold text-white">{collection.name}</h3>
+            <h3 className="font-heading text-xl font-semibold text-white sm:text-2xl">{collection.name}</h3>
             <p className="mt-2 text-sm text-white/80">{collection.description}</p>
             <span className="mt-4 inline-flex items-center gap-1.5 text-xs font-semibold uppercase tracking-wider text-accent">
               Shop Collection
